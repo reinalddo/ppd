@@ -1,39 +1,150 @@
-<section id="inicio" class="hero-intro wrapper reveal">
-    <div class="hero-content">
-        <p class="hero-tag">Servicios llave en mano</p>
-        <h1>Landing Pages, Sitios Pro y Tiendas listos para convertir.</h1>
-        <p class="lead">Diseño, desarrollo y soporte administrado para que tus campañas, presencia profesional y ventas 24/7 estén alineadas con mensajes claros y CTAs directos a WhatsApp.</p>
-        <ul class="hero-list">
-            <li>Copy estratégico + UI ligera enfocada en una única acción.</li>
-            <li>Integraciones con WhatsApp, formularios, pagos y automatizaciones.</li>
-            <li>Infraestructura administrada: hosting, dominio, SSL y soporte continuo.</li>
-        </ul>
-        <div class="hero-actions">
-            <a class="cta" href="https://wa.me/573000000000?text=Hola%20Primer%20Paso%20Digital%2C%20necesito%20mi%20sitio%20web" target="_blank" rel="noopener">Hablar por WhatsApp</a>
-            <a class="ghost-btn" href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>">Ver servicios y planes</a>
+<section id="inicio" class="hero-spotlight reveal">
+    <div class="hero-splash" aria-labelledby="hero-title">
+        <div class="wrapper hero-splash-inner">
+            <div class="hero-splash-copy">
+                <div class="hero-slider" aria-live="polite" data-hero-slider>
+                    <div class="hero-slide active">
+                        <p class="hero-super">Contrata tu Presencia en Internet</p>
+                        <h1>¿Qué pasaría si, en lugar de vender, hicieras que la gente se sienta parte de tu marca?</h1>
+                        <p class="lead">Diseñamos landing pages, sitios profesionales y tiendas virtuales administradas para que promociones tus servicios con un solo mensaje claro y un CTA directo a WhatsApp.</p>
+                    </div>
+                    <div class="hero-slide">
+                        <p class="hero-super">Activa campañas en días</p>
+                        <h1>Landing Pages hechas a medida para optimizar tu inversión en Ads.</h1>
+                        <p class="lead">Copy persuasivo, formularios y automatizaciones listas para captar leads calientes.</p>
+                    </div>
+                    <div class="hero-slide">
+                        <p class="hero-super">Sitios profesionales administrados</p>
+                        <h1>Multipáginas con hosting, soporte y SEO incluidos en un solo equipo.</h1>
+                        <p class="lead">Nos encargamos de la infraestructura para que solo te enfoques en vender.</p>
+                    </div>
+                    <div class="hero-slide">
+                        <p class="hero-super">Tiendas virtuales personalizables</p>
+                        <h1>Catálogos administrables con pasarelas listas y soporte continuo.</h1>
+                        <p class="lead">Integramos pagos, inventario y automatizaciones para vender 24/7.</p>
+                    </div>
+                    <div class="hero-slider-dots" role="tablist">
+                        <button type="button" aria-label="Slide 1" aria-selected="true"></button>
+                        <button type="button" aria-label="Slide 2"></button>
+                        <button type="button" aria-label="Slide 3"></button>
+                        <button type="button" aria-label="Slide 4"></button>
+                    </div>
+                </div>
+                <div class="hero-cta-row">
+                    <a class="cta hero-cta" href="https://wa.me/573000000000?text=Hola%20Primer%20Paso%20Digital%2C%20necesito%20mi%20sitio%20web" target="_blank" rel="noopener">Haz que tus servicios destaquen</a>
+                    <a class="ghost-btn ghost-light" href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>">Ver servicios y planes</a>
+                </div>
+                <div class="hero-splash-tags" aria-label="Servicios destacados">
+                    <span>Landing Pages</span>
+                    <span>Sitios Profesionales</span>
+                    <span>Tiendas Virtuales</span>
+                </div>
+            </div>
+            <div class="hero-splash-visual">
+                <div class="hero-orb"></div>
+                <div class="hero-visual-stage">
+                    <article class="hero-visual-card active" data-visual-slide="0">
+                        <p class="eyebrow">Paquete destacado</p>
+                        <h3>Landing + Sitio + Tienda</h3>
+                        <ul>
+                            <li>CTA medible hacia WhatsApp.</li>
+                            <li>Hosting administrado + SSL.</li>
+                            <li>Pagos PayPal y Stripe.</li>
+                        </ul>
+                        <p class="visual-price">Desde USD 70</p>
+                    </article>
+                    <article class="hero-visual-card" data-visual-slide="1">
+                        <p class="eyebrow">Campaña inmediata</p>
+                        <h3>Landing Ads Express</h3>
+                        <ul>
+                            <li>Copy alineado a tus campañas.</li>
+                            <li>Pixel de Meta y GA4 configurados.</li>
+                            <li>Ajustes y QA en 5 días.</li>
+                        </ul>
+                        <p class="visual-price">Desde USD 120</p>
+                    </article>
+                    <article class="hero-visual-card" data-visual-slide="2">
+                        <p class="eyebrow">Presencia continua</p>
+                        <h3>Sitio Pro Administrado</h3>
+                        <ul>
+                            <li>Estructura multipágina con blog.</li>
+                            <li>SEO técnico y contenidos optimizados.</li>
+                            <li>Soporte y reportes mensuales.</li>
+                        </ul>
+                        <p class="visual-price">Desde USD 180</p>
+                    </article>
+                    <article class="hero-visual-card" data-visual-slide="3">
+                        <p class="eyebrow">Venta 24/7</p>
+                        <h3>Tienda Full Stack</h3>
+                        <ul>
+                            <li>Checkouts PayPal y Mercado Pago.</li>
+                            <li>Inventario con cupones y reseñas.</li>
+                            <li>Automatizaciones post venta.</li>
+                        </ul>
+                        <p class="visual-price">Desde USD 240</p>
+                    </article>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="hero-media">
-        <div class="summary-stack">
-            <article class="summary-card">
-                <p class="eyebrow">Plan Landing Page</p>
-                <h3>USD 70</h3>
-                <p>Una página única enfocada en campañas con CTA hacia WhatsApp y formulario directo.</p>
-                <a href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>#planes" class="link-arrow">Ver alcance</a>
-            </article>
-            <article class="summary-card highlight">
-                <p class="eyebrow">Plan Sitio Web Profesional</p>
-                <h3>USD 150</h3>
-                <p>Multipágina con secciones clave, galerías y SEO optimizado para posicionar tu marca.</p>
-                <a href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>#planes" class="link-arrow">Conocer detalles</a>
-            </article>
-            <article class="summary-card">
-                <p class="eyebrow">Plan Tienda Virtual</p>
-                <h3>USD 250</h3>
-                <p>E-commerce llave en mano con pasarelas de pago, inventario y carga inicial de productos.</p>
-                <a href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>#planes" class="link-arrow">Listo para vender</a>
-            </article>
+    <div class="hero-service-strip">
+        <div class="wrapper">
+            <p>¿Necesitas una landing page, una web profesional o una tienda virtual con soporte administrado? <strong>¡Llegaste al lugar correcto!</strong></p>
         </div>
-        <p class="hero-note">Todos los planes incluyen renovación administrada por 59 USD/año y el mismo soporte que verás en la sección de Servicios y Planes.</p>
+    </div>
+</section>
+
+<section class="intro-video" aria-labelledby="intro-video-title">
+    <div class="wrapper video-wrapper">
+        <div class="video-copy">
+            <p class="eyebrow">Video Demo</p>
+            <h2 id="intro-video-title">Conoce cómo construimos y soportamos tus servicios.</h2>
+            <p>Preséntales a tus visitantes un vistazo real al flujo de trabajo antes de recorrer el resto de la web.</p>
+        </div>
+        <div class="video-frame">
+            <video controls preload="metadata" poster="logos/Logo%20de%20monograma%20mi.png">
+                <source src="video/video.mp4" type="video/mp4">
+                Tu navegador no soporta video HTML5. Descarga el archivo <a href="video/video.mp4">aquí</a>.
+            </video>
+        </div>
+    </div>
+</section>
+
+<section class="service-card-section reveal" aria-labelledby="service-card-title">
+    <div class="wrapper">
+        <p class="eyebrow">Servicios principales</p>
+        <h2 id="service-card-title">Elige cómo quieres lanzar hoy.</h2>
+        <div class="hero-service-promo">
+        <article class="hero-service-card" data-service="landing">
+            <p class="service-chip">Landing Pages</p>
+            <h3>Campañas medibles</h3>
+            <p>3 secciones, copy persuasivo y CTA único para convertir cada clic en conversación.</p>
+            <ul>
+                <li>Botón WhatsApp + formulario.</li>
+                <li>Entrega express y optimizada.</li>
+            </ul>
+            <a href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>#servicios-planes" class="link-arrow">Plan Landing Page</a>
+        </article>
+        <article class="hero-service-card" data-service="sitio">
+            <p class="service-chip">Sitio Web Profesional</p>
+            <h3>Presencia sólida</h3>
+            <p>Multipágina con secciones de servicios, casos y formularios para dar confianza desde el inicio.</p>
+            <ul>
+                <li>Hasta 5 páginas estratégicas.</li>
+                <li>Hosting, SSL y SEO administrado.</li>
+            </ul>
+            <a href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>#servicios-planes" class="link-arrow">Plan Sitio Pro</a>
+        </article>
+        <article class="hero-service-card" data-service="tienda">
+            <p class="service-chip">Tienda Virtual</p>
+            <h3>Ventas 24/7</h3>
+            <p>Catálogo administrable, carrito con cupones y pasarelas para vender productos físicos o digitales.</p>
+            <ul>
+                <li>Checkout con PayPal y Mercado Pago.</li>
+                <li>Inventario, reseñas y soporte dedicado.</li>
+            </ul>
+            <a href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>#tienda-virtual-personalizable" class="link-arrow">Plan Tienda Virtual</a>
+        </article>
+        </div>
     </div>
 </section>

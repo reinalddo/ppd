@@ -45,4 +45,45 @@ docReady(() => {
     };
 
     setActiveNav();
+
+    const sliderEl = document.querySelector('[data-hero-slider]');
+    if (sliderEl) {
+        const slides = Array.from(sliderEl.querySelectorAll('.hero-slide'));
+        const dots = Array.from(sliderEl.querySelectorAll('.hero-slider-dots button'));
+        const visualSlides = Array.from((sliderEl.closest('.hero-splash') || document).querySelectorAll('[data-visual-slide]'));
+        let current = 0;
+        const total = slides.length;
+        const update = index => {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+            });
+            dots.forEach((dot, i) => {
+                const selected = i === index;
+                dot.setAttribute('aria-selected', String(selected));
+            });
+            if (visualSlides.length) {
+                visualSlides.forEach(card => {
+                    const matches = Number(card.dataset.visualSlide) === index;
+                    card.classList.toggle('active', matches);
+                });
+            }
+            current = index;
+        };
+
+        const nextSlide = () => {
+            update((current + 1) % total);
+        };
+
+        let interval = setInterval(nextSlide, 7000);
+
+        dots.forEach((dot, idx) => {
+            dot.addEventListener('click', () => {
+                update(idx);
+                clearInterval(interval);
+                interval = setInterval(nextSlide, 7000);
+            });
+        });
+
+        update(0);
+    }
 });

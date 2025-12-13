@@ -52,9 +52,13 @@ $pathFor = static function (string $slug = 'inicio') use ($basePath, $sectionSlu
     return $url === '' ? '/' : $url;
 };
 
-$canonicalBase = 'https://primerpasodigital.com';
-$canonicalPath = $currentSection === 'inicio' ? '/' : '/' . $currentSection;
-$canonicalUrl = rtrim($canonicalBase, '/') . $canonicalPath;
+$assetPath = static function (string $relative) use ($basePath): string {
+    $relative = ltrim($relative, '/');
+    $prefix = $basePath === '' ? '' : rtrim($basePath, '/') . '/';
+    return $prefix . $relative;
+};
+
+$canonicalUrl = $pathFor($currentSection);
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -69,11 +73,11 @@ $canonicalUrl = rtrim($canonicalBase, '/') . $canonicalPath;
     <meta property="og:type" content="website">
     <meta property="og:title" content="<?php echo htmlspecialchars($activeConfig['title'], ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($activeConfig['description'], ENT_QUOTES, 'UTF-8'); ?>">
-    <meta property="og:image" content="https://primerpasodigital.com/assets/cover.jpg">
+    <meta property="og:image" content="<?php echo htmlspecialchars($assetPath('logos/logo.jpg'), ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="theme-color" content="#06090f">
-    <link rel="icon" href="/PrimerPasoDigital/Web/PPDV2/logos/ppdv2-mark.svg" type="image/svg+xml">
+    <link rel="icon" href="<?php echo htmlspecialchars($assetPath('logos/logo.jpg'), ENT_QUOTES, 'UTF-8'); ?>" type="image/jpeg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" referrerpolicy="no-referrer">
@@ -83,8 +87,8 @@ $canonicalUrl = rtrim($canonicalBase, '/') . $canonicalPath;
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "Primer Paso Digital",
-            "url": "https://primerpasodigital.com/",
-            "logo": "https://primerpasodigital.com/logos/ppdv2-mark.svg",
+            "url": "<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>",
+            "logo": "<?php echo htmlspecialchars($assetPath('logos/logo.jpg'), ENT_QUOTES, 'UTF-8'); ?>",
             "contactPoint": {
                 "@type": "ContactPoint",
                 "contactType": "sales",
@@ -102,7 +106,7 @@ $canonicalUrl = rtrim($canonicalBase, '/') . $canonicalPath;
     <header>
         <div class="wrapper navbar">
             <a class="brand" href="<?php echo htmlspecialchars($pathFor('inicio'), ENT_QUOTES, 'UTF-8'); ?>">
-                <img src="logos/ppdv2-mark.svg" alt="Identidad visual de <?php echo $siteName; ?>">
+                <img src="logos/logo.png" alt="Identidad visual de <?php echo $siteName; ?>">
                 <span><?php echo $siteName; ?></span>
             </a>
             <button class="menu-toggle" type="button" aria-label="Abrir navegación">

@@ -153,4 +153,73 @@
             </article>
         </div>
     </section>
+
+    <section id="tienda-virtual-personalizable" class="section tienda-virtual-highlight reveal" aria-labelledby="tienda-virtual-title">
+        <div class="tienda-virtual-layout">
+            <div class="tienda-virtual-copy">
+                <p class="eyebrow">Tienda Virtual Personalizable</p>
+                <h2 id="tienda-virtual-title">El servicio de tienda virtual que evoluciona contigo.</h2>
+                <p class="lead tienda-virtual-lead">Basamos esta solución en la plataforma <strong>tienda_web</strong>: catálogo administrable, filtros dinámicos, reseñas verificadas y galerías hero que puedes activar o pausar desde tu panel. El carrito calcula precios en vivo, valida stock, aplica cupones y se sincroniza con las pasarelas que ya usamos a diario (PayPal y Mercado Pago) más tus monedas configuradas.</p>
+                <ul class="tienda-feature-list" aria-label="Características de la plataforma">
+                    <li><span>Catálogo inteligente:</span> categorías destacadas, orden avanzado, sliders de promociones y testimonios reales para mantener tu home siempre vivo.</li>
+                    <li><span>Carrito y cupones en vivo:</span> mini-carrito AJAX, control de inventario físico/digital, validación de montos mínimos y mensajes automáticos al cliente.</li>
+                    <li><span>Pagos y monedas flexibles:</span> PayPal Checkout, Mercado Pago, tasas por sesión y descuentos precisos antes de cobrar.</li>
+                    <li><span>Seguimiento postventa:</span> conversación interna por pedido, notificaciones en tiempo real y descargas digitales protegidas con tokens.</li>
+                </ul>
+                <div class="tienda-virtual-tags">
+                    <span>Multi-pasarela + multimoneda</span>
+                    <span>Soporte administrado 24/7</span>
+                    <span>Listo para escalar</span>
+                </div>
+            </div>
+            <div class="tienda-plan-grid" aria-label="Planes Tienda Virtual Personalizable">
+                <article class="tienda-plan-card">
+                    <p class="plan-pill">Plan Inicial</p>
+                    <h3>Todo lo esencial para lanzar.</h3>
+                    <ul>
+                        <li>Plataforma IVirtualShop instalada.</li>
+                        <li>Subdominio (tutienda.ivirtualshop.com).</li>
+                        <li>Servidor administrado + monitoreo.</li>
+                        <li>Correo profesional (1er año gratis).</li>
+                        <li>Importadores (Excel, PDF) y capacitaciones.</li>
+                        <li>Soporte y actualizaciones del primer mes.</li>
+                    </ul>
+                    <p class="plan-price-tag">$129.99 <span>Pago único</span></p>
+                    <a class="cta" href="https://wa.me/573000000000?text=Quiero%20el%20Plan%20Inicial%20iVirtualShop" target="_blank" rel="noopener">Solicitar demo</a>
+                </article>
+                <article class="tienda-plan-card featured">
+                    <p class="plan-pill">Plan Profesional</p>
+                    <h3>Control total + acompañamiento.</h3>
+                    <ul>
+                        <li>Incluye todas las funciones del Plan Inicial.</li>
+                        <li>Dominio .com gratis durante el primer año.</li>
+                        <li>Correo profesional avanzado e ilimitado.</li>
+                        <li>Protección anti-spam y endurecimiento del servidor.</li>
+                        <li>3 meses de soporte y actualizaciones continuas.</li>
+                        <li>Soporte técnico prioritario con respuesta preferencial.</li>
+                    </ul>
+                    <p class="plan-price-tag">$199.99 <span>Pago único</span></p>
+                    <div class="plan-meta">
+                        <span>Renovación dominio desde $23/año</span>
+                        <span>Soporte opcional $35/mes</span>
+                    </div>
+                    <a class="cta" href="https://wa.me/573000000000?text=Quiero%20el%20Plan%20Profesional%20iVirtualShop" target="_blank" rel="noopener">Quiero este plan</a>
+                </article>
+                <article class="tienda-plan-card owner">
+                    <p class="plan-pill">Plan Propietario</p>
+                    <h3>Código completo en tu infraestructura.</h3>
+                    <ul>
+                        <li>Entrega total del código fuente y documentación.</li>
+                        <li>Instalación en tu propio cPanel/hosting.</li>
+                        <li>Propiedad 100% modificable para tu equipo.</li>
+                        <li>Correos corporativos según tu hosting.</li>
+                        <li>Acompañamiento de instalación (1ra semana).</li>
+                        <li>Sin soporte ni actualizaciones posteriores.</li>
+                    </ul>
+                    <p class="plan-price-tag">$899.99 <span>Pago único</span></p>
+                    <a class="ghost-btn" href="https://wa.me/573000000000?text=Quiero%20cotizar%20el%20Plan%20Propietario%20iVirtualShop" target="_blank" rel="noopener">Contactar para cotizar</a>
+                </article>
+            </div>
+        </div>
+    </section>
 </div>
