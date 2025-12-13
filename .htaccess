@@ -5,5 +5,5 @@
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^ - [L]
 
-    RewriteRule ^(inicio|servicios-planes|contacto)/?$ index.php?section=$1 [QSA,L]
+    RewriteRule ^(inicio|servicios-planes|contacto|politica-de-privacidad|terminos-de-servicio)/?$ index.php?section=$1 [QSA,L]
 </IfModule>

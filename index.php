@@ -18,6 +18,16 @@ $sectionMap = [
         'title' => 'Contacto | Primer Paso Digital | Contacta con nosotros',
         'description' => 'Formulario y medios de contacto para escribirnos por correo, WhatsApp o agendar una reunión rápida.'
     ],
+    'politica-de-privacidad' => [
+        'file' => __DIR__ . '/sections/politica-de-privacidad.php',
+        'title' => 'Política de Privacidad | Primer Paso Digital',
+        'description' => 'Consulta cómo cuidamos tus datos personales, con detalle de fuentes, subprocesadores y derechos.'
+    ],
+    'terminos-de-servicio' => [
+        'file' => __DIR__ . '/sections/terminos-de-servicio.php',
+        'title' => 'Términos de Servicio | Primer Paso Digital',
+        'description' => 'Conoce las condiciones de uso, propiedad intelectual, soporte y renovaciones de nuestros planes administrados.'
+    ],
 ];
 
 $sectionSlugs = array_keys($sectionMap);
@@ -26,6 +36,11 @@ $basePath = rtrim($scriptDir, '/');
 if ($basePath === '.' || $basePath === '/') {
     $basePath = '';
 }
+
+$scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+$host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+$siteOrigin = $scheme . '://' . $host;
+$siteBaseUrl = $siteOrigin . ($basePath === '' ? '' : $basePath);
 
 $requestUri = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?? '/';
 $normalizedPath = trim(str_replace('\\', '/', $requestUri), '/');
@@ -66,6 +81,8 @@ $quickLinks = [
     ['label' => 'Ventajas', 'url' => $pathFor('servicios-planes') . '#tienda-virtual-personalizable'],
     ['label' => 'Planes y Precios', 'url' => $pathFor('servicios-planes') . '#planes'],
     ['label' => 'Contacto', 'url' => $pathFor('contacto')],
+    ['label' => 'Privacidad', 'url' => $pathFor('politica-de-privacidad')],
+    ['label' => 'Términos', 'url' => $pathFor('terminos-de-servicio')],
 ];
 ?>
 <!DOCTYPE html>
@@ -194,9 +211,9 @@ $quickLinks = [
             <div class="footer-bottom">
                 <p>© <?php echo $year; ?> <?php echo $siteName; ?>. Todos los derechos reservados.</p>
                 <div class="footer-legal-links">
-                    <a href="<?php echo htmlspecialchars($pathFor('contacto'), ENT_QUOTES, 'UTF-8'); ?>#privacidad">Política de Privacidad</a>
+                    <a href="<?php echo htmlspecialchars($pathFor('politica-de-privacidad'), ENT_QUOTES, 'UTF-8'); ?>">Política de Privacidad</a>
                     <span aria-hidden="true">|</span>
-                    <a href="<?php echo htmlspecialchars($pathFor('contacto'), ENT_QUOTES, 'UTF-8'); ?>#terminos">Términos de Servicio</a>
+                    <a href="<?php echo htmlspecialchars($pathFor('terminos-de-servicio'), ENT_QUOTES, 'UTF-8'); ?>">Términos de Servicio</a>
                 </div>
             </div>
         </div>

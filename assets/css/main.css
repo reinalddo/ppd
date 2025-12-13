@@ -1445,6 +1445,19 @@ nav a:hover {
     }
 }
 
+.section h3 {
+    font-size: clamp(1.2rem, 2.5vw, 1.65rem);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section ul {
+    padding-left: 1.25rem;
+    margin: 0 0 1rem;
+    color: var(--muted);
+    line-height: 1.6;
+}
+
 .tienda-plan-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -1531,6 +1544,85 @@ nav a:hover {
     gap: 0.25rem;
     font-size: 0.85rem;
     color: rgba(255, 255, 255, 0.75);
+}
+
+.thanks-body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(circle at 15% 20%, rgba(7, 47, 79, 0.35), transparent 55%),
+                radial-gradient(circle at 85% 0%, rgba(255, 136, 18, 0.35), transparent 60%),
+                #030b18;
+    color: #f4f8ff;
+    font-family: 'General Sans', 'Space Grotesk', system-ui, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+}
+
+.thanks-main {
+    width: min(640px, 100%);
+    text-align: center;
+}
+
+.thanks-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 32px;
+    padding: 3rem 2.5rem;
+    box-shadow: 0 30px 80px rgba(3, 11, 24, 0.45);
+    backdrop-filter: blur(14px);
+}
+
+.thanks-icon {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.thanks-icon .checkmark {
+    width: 32px;
+    height: 16px;
+    border-left: 4px solid #30d158;
+    border-bottom: 4px solid #30d158;
+    transform: rotate(-45deg);
+    display: inline-block;
+}
+
+.thanks-card h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2rem, 5vw, 2.8rem);
+    color: #fff;
+}
+
+.thanks-lead {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto 2rem;
+    max-width: 460px;
+}
+
+.thanks-btn {
+    width: 100%;
+    justify-content: center;
+}
+
+.thanks-note {
+    margin-top: 2rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 480px) {
+    .thanks-card {
+        padding: 2.25rem 1.5rem;
+    }
 }
 
 .tienda-plan-card .cta,

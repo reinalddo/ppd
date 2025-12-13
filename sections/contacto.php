@@ -5,7 +5,11 @@
         <p class="lead">Dime qué necesitas y te respondo en menos de 24 horas. Puedes escribir, llamar o agendar una reunión express.</p>
 
         <div class="contact-grid">
-            <form action="#" method="post" class="contact-form">
+            <form action="https://api.tvirtualshop.com/enviar-formulario.php" method="POST" class="contact-form">
+                <input type="hidden" name="enviar_a_email" value="contacto@primerpasodigital.com">
+                <input type="hidden" name="redirect_url" value="<?php echo htmlspecialchars(($siteBaseUrl ?? '') . '/gracias.php', ENT_QUOTES, 'UTF-8'); ?>">
+                <input type="hidden" name="asunto_correo" value="Nuevo Lead - Web PPD">
+                <input type="hidden" name="web_nombre" value="Primer Paso Digital Notificaciones">
                 <label>
                     <span>Nombre y empresa</span>
                     <input type="text" name="nombre" placeholder="Ej. Ana · Kinevo" required>
@@ -13,6 +17,10 @@
                 <label>
                     <span>Email</span>
                     <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                </label>
+                <label>
+                    <span>WhatsApp</span>
+                    <input type="tel" name="whatsapp" placeholder="Ej. +58 424 723 87 16">
                 </label>
                 <label>
                     <span>¿Qué necesitas?</span>
@@ -43,3 +51,4 @@
         </div>
     </section>
 </div>
+
