@@ -1,0 +1,7 @@
+<svg width="160" height="40" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="160" height="40" rx="12" fill="#0a121f"/>
+<path d="M20 30V10H31C37.6274 10 43 15.3726 43 22C43 28.6274 37.6274 34 31 34H20V30Z" fill="#27f2c7"/>
+<path d="M63 10H76C82.6274 10 88 15.3726 88 22C88 28.6274 82.6274 34 76 34H63V10Z" fill="#ff9b4a"/>
+<path d="M106 10H117L126 34H115L113 28H101L99 34H88L97 10H106ZM104.3 22L103 19L101.7 22H104.3Z" fill="white"/>
+<text x="134" y="26" fill="white" font-family="'Space Grotesk', sans-serif" font-size="12" letter-spacing="0.15em">PPD</text>
+</svg>
