@@ -60,7 +60,7 @@ docReady(() => {
         const nextBtn = sliderShell ? sliderShell.querySelector('[data-hero-next]') : null;
         const visualScope = sliderEl.closest('.hero-splash') || document;
         const visualSlides = Array.from(visualScope.querySelectorAll('[data-visual-slide]'));
-        const autoplayDelay = Number(sliderEl.dataset.heroDelay) || 10000;
+        const autoplayDelay = Number(sliderEl.dataset.heroDelay) || 15000;
         let current = 0;
         let intervalId;
 

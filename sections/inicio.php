@@ -10,18 +10,18 @@
                         <p class="lead">Diseñamos landing pages, sitios profesionales y tiendas virtuales administradas para que promociones tus servicios con un solo mensaje claro y un CTA directo a WhatsApp.</p>
                     </div>
                     <div class="hero-slide">
-                        <p class="hero-super">Activa campañas en días</p>
-                        <h3>Landing Pages hechas a medida para optimizar tu inversión en Ads.</h3>
-                        <p class="lead">Copy persuasivo, formularios y automatizaciones listas para captar leads calientes.</p>
+                        <p class="hero-super">Atrae Clientes Sin Presionar</p>
+                        <h3>Tus clientes quieren ver antes de ir y comprar sin tener que llamar. Dales la libertad de elegirte las 24 horas con una web profesional.</h3>
+                        <p class="lead">Publica sus productos o servicios, describelos, permite preguntar a tus clientes</p>
                     </div>
                     <div class="hero-slide">
                         <p class="hero-super">Sitios profesionales administrados</p>
-                        <h3>Multipáginas con hosting, soporte y SEO incluidos en un solo equipo.</h3>
+                        <h3>Si no estás en internet, para la mitad de tus clientes, simplemente no existes.</h3>
                         <p class="lead">Nos encargamos de la infraestructura para que solo te enfoques en vender.</p>
                     </div>
                     <div class="hero-slide">
                         <p class="hero-super">Tiendas virtuales personalizables</p>
-                        <h3>Catálogos administrables con pasarelas listas y soporte continuo.</h3>
+                        <h3>Hoy nadie quiere preguntar "¿qué vendes?". Quieren verlo, comparar y comprar desde su sofá. No dejes que tu negocio tenga horario de cierre; abre tu sucursal digital hoy mismo.</h3>
                         <p class="lead">Integramos pagos, inventario y automatizaciones para vender 24/7.</p>
                     </div>
                     <div class="hero-slider-dots" role="tablist">
@@ -55,7 +55,7 @@
                 <div class="hero-visual-stage">
                     <article class="hero-visual-card active" data-visual-slide="0">
                         <p class="eyebrow">Paquete destacado</p>
-                        <h3>Landing + Sitio + Tienda</h3>
+                        <h3>Landing Pages</h3>
                         <ul>
                             <li>CTA medible hacia WhatsApp.</li>
                             <li>Hosting administrado + SSL.</li>
@@ -64,14 +64,14 @@
                         <p class="visual-price">Desde USD 70</p>
                     </article>
                     <article class="hero-visual-card" data-visual-slide="1">
-                        <p class="eyebrow">Campaña inmediata</p>
-                        <h3>Landing Ads Express</h3>
+                        <p class="eyebrow">Ofrece tus Productos/Servicios</p>
+                        <h3>Sitio Web Profesional</h3>
                         <ul>
-                            <li>Copy alineado a tus campañas.</li>
-                            <li>Pixel de Meta y GA4 configurados.</li>
-                            <li>Ajustes y QA en 5 días.</li>
+                            <li>Administrador de la información de tu web</li>
+                            <li>Formulario de Contacto y Whatsapp</li>
+                            <li>Vista para celulares</li>
                         </ul>
-                        <p class="visual-price">Desde USD 120</p>
+                        <p class="visual-price">Desde USD 75</p>
                     </article>
                     <article class="hero-visual-card" data-visual-slide="2">
                         <p class="eyebrow">Presencia continua</p>
@@ -79,19 +79,19 @@
                         <ul>
                             <li>Estructura multipágina con blog.</li>
                             <li>SEO técnico y contenidos optimizados.</li>
-                            <li>Soporte y reportes mensuales.</li>
+                            <li>Soporte Mensual</li>
                         </ul>
-                        <p class="visual-price">Desde USD 180</p>
+                        <p class="visual-price">Desde USD 175</p>
                     </article>
                     <article class="hero-visual-card" data-visual-slide="3">
                         <p class="eyebrow">Venta 24/7</p>
                         <h3>Tienda Full Stack</h3>
                         <ul>
-                            <li>Checkouts PayPal y Mercado Pago.</li>
+                            <li>Checkouts PayPal y Stripe.</li>
                             <li>Inventario con cupones y reseñas.</li>
                             <li>Automatizaciones post venta.</li>
                         </ul>
-                        <p class="visual-price">Desde USD 240</p>
+                        <p class="visual-price">Desde USD 130</p>
                     </article>
                 </div>
             </div>
