@@ -78,11 +78,11 @@ $canonicalUrl = $pathFor($currentSection);
 $quickLinks = [
     ['label' => 'Inicio', 'url' => $pathFor('inicio')],
     ['label' => 'Servicios', 'url' => $pathFor('servicios-planes') . '#servicios-planes'],
-    ['label' => 'Ventajas', 'url' => $pathFor('servicios-planes') . '#tienda-virtual-personalizable'],
+    //['label' => 'Ventajas', 'url' => $pathFor('servicios-planes') . '#tienda-virtual-personalizable'],
     ['label' => 'Planes y Precios', 'url' => $pathFor('servicios-planes') . '#planes'],
     ['label' => 'Contacto', 'url' => $pathFor('contacto')],
-    ['label' => 'Privacidad', 'url' => $pathFor('politica-de-privacidad')],
-    ['label' => 'Términos', 'url' => $pathFor('terminos-de-servicio')],
+    //['label' => 'Privacidad', 'url' => $pathFor('politica-de-privacidad')],
+    //['label' => 'Términos', 'url' => $pathFor('terminos-de-servicio')],
 ];
 ?>
 <!DOCTYPE html>
