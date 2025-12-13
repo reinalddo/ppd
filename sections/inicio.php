@@ -2,10 +2,11 @@
     <div class="hero-splash" aria-labelledby="hero-title">
         <div class="wrapper hero-splash-inner">
             <div class="hero-splash-copy">
-                <div class="hero-slider" aria-live="polite" data-hero-slider>
+                <div class="hero-slider-shell">
+                    <div class="hero-slider" aria-live="polite" data-hero-slider>
                     <div class="hero-slide active">
                         <p class="hero-super">Contrata tu Presencia en Internet</p>
-                        <h3>¿Qué pasaría si, en lugar de vender, hicieras que la gente se sienta parte de tu marca?</h3>
+                        <h3>La primera visita de tu cliente ya no es a tu tienda física, es a tu página web o a tu tienda virtual. Si no te encuentran, esa venta se la lleva tu competencia.</h3>
                         <p class="lead">Diseñamos landing pages, sitios profesionales y tiendas virtuales administradas para que promociones tus servicios con un solo mensaje claro y un CTA directo a WhatsApp.</p>
                     </div>
                     <div class="hero-slide">
@@ -28,6 +29,15 @@
                         <button type="button" aria-label="Slide 2"></button>
                         <button type="button" aria-label="Slide 3"></button>
                         <button type="button" aria-label="Slide 4"></button>
+                    </div>
+                    </div>
+                    <div class="hero-slider-controls" role="group" aria-label="Controles del carrusel">
+                        <button type="button" class="hero-slider-arrow prev" data-hero-prev aria-label="Ver slide anterior">
+                            <span aria-hidden="true">&#8592;</span>
+                        </button>
+                        <button type="button" class="hero-slider-arrow next" data-hero-next aria-label="Ver slide siguiente">
+                            <span aria-hidden="true">&#8594;</span>
+                        </button>
                     </div>
                 </div>
                 <div class="hero-cta-row">

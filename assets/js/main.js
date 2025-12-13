@@ -46,44 +46,71 @@ docReady(() => {
 
     setActiveNav();
 
-    const sliderEl = document.querySelector('[data-hero-slider]');
-    if (sliderEl) {
+    const heroSliders = document.querySelectorAll('[data-hero-slider]');
+    heroSliders.forEach(sliderEl => {
         const slides = Array.from(sliderEl.querySelectorAll('.hero-slide'));
-        const dots = Array.from(sliderEl.querySelectorAll('.hero-slider-dots button'));
-        const visualSlides = Array.from((sliderEl.closest('.hero-splash') || document).querySelectorAll('[data-visual-slide]'));
-        let current = 0;
         const total = slides.length;
-        const update = index => {
-            slides.forEach((slide, i) => {
-                slide.classList.toggle('active', i === index);
+        if (!total) {
+            return;
+        }
+
+        const dots = Array.from(sliderEl.querySelectorAll('.hero-slider-dots button'));
+        const sliderShell = sliderEl.closest('.hero-slider-shell') || sliderEl.parentElement;
+        const prevBtn = sliderShell ? sliderShell.querySelector('[data-hero-prev]') : null;
+        const nextBtn = sliderShell ? sliderShell.querySelector('[data-hero-next]') : null;
+        const visualScope = sliderEl.closest('.hero-splash') || document;
+        const visualSlides = Array.from(visualScope.querySelectorAll('[data-visual-slide]'));
+        const autoplayDelay = Number(sliderEl.dataset.heroDelay) || 10000;
+        let current = 0;
+        let intervalId;
+
+        const normalizeIndex = target => {
+            const remainder = target % total;
+            return remainder < 0 ? remainder + total : remainder;
+        };
+
+        const update = targetIndex => {
+            const index = normalizeIndex(targetIndex);
+            slides.forEach((slide, slideIdx) => {
+                slide.classList.toggle('active', slideIdx === index);
             });
-            dots.forEach((dot, i) => {
-                const selected = i === index;
-                dot.setAttribute('aria-selected', String(selected));
+            dots.forEach((dot, dotIdx) => {
+                dot.setAttribute('aria-selected', String(dotIdx === index));
             });
-            if (visualSlides.length) {
-                visualSlides.forEach(card => {
-                    const matches = Number(card.dataset.visualSlide) === index;
-                    card.classList.toggle('active', matches);
-                });
-            }
+            visualSlides.forEach(card => {
+                const matches = Number(card.dataset.visualSlide) === index;
+                card.classList.toggle('active', matches);
+            });
             current = index;
         };
 
-        const nextSlide = () => {
-            update((current + 1) % total);
+        const restartAutoplay = () => {
+            clearInterval(intervalId);
+            intervalId = setInterval(() => update(current + 1), autoplayDelay);
         };
-
-        let interval = setInterval(nextSlide, 7000);
 
         dots.forEach((dot, idx) => {
             dot.addEventListener('click', () => {
                 update(idx);
-                clearInterval(interval);
-                interval = setInterval(nextSlide, 7000);
+                restartAutoplay();
             });
         });
 
+        if (prevBtn) {
+            prevBtn.addEventListener('click', () => {
+                update(current - 1);
+                restartAutoplay();
+            });
+        }
+
+        if (nextBtn) {
+            nextBtn.addEventListener('click', () => {
+                update(current + 1);
+                restartAutoplay();
+            });
+        }
+
         update(0);
-    }
+        restartAutoplay();
+    });
 });
