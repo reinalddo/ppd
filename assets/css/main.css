@@ -323,9 +323,9 @@ nav a:hover {
     position: relative;
     width: min(360px, 90%);
     min-height: 340px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    align-items: stretch;
+    justify-items: stretch;
 }
 
 .hero-orb {
@@ -338,9 +338,8 @@ nav a:hover {
 }
 
 .hero-visual-card {
-    position: absolute;
-    inset: 0;
-    margin: 0 auto;
+    position: relative;
+    grid-area: 1 / 1;
     width: 100%;
     border-radius: var(--radius-lg);
     padding: 2rem;
@@ -470,6 +469,20 @@ nav a:hover {
 
 .service-card-section {
     padding: 2.5rem 0;
+}
+
+.service-card-section .section-heading {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-size: 0.95rem;
+    color: var(--muted);
+}
+
+.service-card-lead {
+    margin: 0.45rem 0 1.75rem;
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    color: var(--text);
 }
 
 .hero-content h1 {
@@ -757,6 +770,14 @@ nav a:hover {
     letter-spacing: 0.09em;
     text-transform: uppercase;
     color: var(--muted);
+    margin: 0;
+    font-weight: 600;
+}
+
+.service-card-title {
+    margin: 0;
+    font-size: 1.35rem;
+    color: var(--text);
 }
 
 .hero-service-card ul {

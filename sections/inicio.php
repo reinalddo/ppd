@@ -127,12 +127,12 @@
 
 <section class="service-card-section reveal" aria-labelledby="service-card-title">
     <div class="wrapper">
-        <p class="eyebrow">Servicios principales</p>
-        <h2 id="service-card-title">Elige cómo quieres lanzar hoy.</h2>
+        <h2 class="eyebrow section-heading" id="service-card-title">Servicios principales</h2>
+        <h3 class="service-card-lead">Elige cómo quieres lanzar hoy.</h3>
         <div class="hero-service-promo">
         <article class="hero-service-card" data-service="landing">
-            <p class="service-chip">Landing Pages</p>
-            <h3>Campañas medibles</h3>
+            <h2 class="service-chip">Landing Pages</h2>
+            <h3 class="service-card-title">Campañas medibles</h3>
             <p>3 secciones, copy persuasivo y CTA único para convertir cada clic en conversación.</p>
             <ul>
                 <li>Botón WhatsApp + formulario.</li>
@@ -141,8 +141,8 @@
             <a href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>#servicios-planes" class="link-arrow">Plan Landing Page</a>
         </article>
         <article class="hero-service-card" data-service="sitio">
-            <p class="service-chip">Sitio Web Profesional</p>
-            <h3>Presencia sólida</h3>
+            <h2 class="service-chip">Sitio Web Profesional</h2>
+            <h3 class="service-card-title">Presencia sólida</h3>
             <p>Multipágina con secciones de servicios, casos y formularios para dar confianza desde el inicio.</p>
             <ul>
                 <li>Hasta 5 páginas estratégicas.</li>
@@ -151,8 +151,8 @@
             <a href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>#servicios-planes" class="link-arrow">Plan Sitio Pro</a>
         </article>
         <article class="hero-service-card" data-service="tienda">
-            <p class="service-chip">Tienda Virtual</p>
-            <h3>Ventas 24/7</h3>
+            <h2 class="service-chip">Tienda Virtual</h2>
+            <h3 class="service-card-title">Ventas 24/7</h3>
             <p>Catálogo administrable, carrito con cupones y pasarelas para vender productos físicos o digitales.</p>
             <ul>
                 <li>Checkout con PayPal y Stripe.</li>
