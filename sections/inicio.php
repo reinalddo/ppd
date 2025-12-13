@@ -5,22 +5,22 @@
                 <div class="hero-slider" aria-live="polite" data-hero-slider>
                     <div class="hero-slide active">
                         <p class="hero-super">Contrata tu Presencia en Internet</p>
-                        <h1>¿Qué pasaría si, en lugar de vender, hicieras que la gente se sienta parte de tu marca?</h1>
+                        <h3>¿Qué pasaría si, en lugar de vender, hicieras que la gente se sienta parte de tu marca?</h3>
                         <p class="lead">Diseñamos landing pages, sitios profesionales y tiendas virtuales administradas para que promociones tus servicios con un solo mensaje claro y un CTA directo a WhatsApp.</p>
                     </div>
                     <div class="hero-slide">
                         <p class="hero-super">Activa campañas en días</p>
-                        <h1>Landing Pages hechas a medida para optimizar tu inversión en Ads.</h1>
+                        <h3>Landing Pages hechas a medida para optimizar tu inversión en Ads.</h3>
                         <p class="lead">Copy persuasivo, formularios y automatizaciones listas para captar leads calientes.</p>
                     </div>
                     <div class="hero-slide">
                         <p class="hero-super">Sitios profesionales administrados</p>
-                        <h1>Multipáginas con hosting, soporte y SEO incluidos en un solo equipo.</h1>
+                        <h3>Multipáginas con hosting, soporte y SEO incluidos en un solo equipo.</h3>
                         <p class="lead">Nos encargamos de la infraestructura para que solo te enfoques en vender.</p>
                     </div>
                     <div class="hero-slide">
                         <p class="hero-super">Tiendas virtuales personalizables</p>
-                        <h1>Catálogos administrables con pasarelas listas y soporte continuo.</h1>
+                        <h3>Catálogos administrables con pasarelas listas y soporte continuo.</h3>
                         <p class="lead">Integramos pagos, inventario y automatizaciones para vender 24/7.</p>
                     </div>
                     <div class="hero-slider-dots" role="tablist">
@@ -94,10 +94,15 @@
     </div>
 </section>
 
+<section class="hero-page-title" aria-label="Título principal">
+    <div class="wrapper">
+        <h1>CONTRATA TU PRESENCIA EN INTERNET</h1>
+    </div>
+</section>
+
 <section class="intro-video" aria-labelledby="intro-video-title">
     <div class="wrapper video-wrapper">
         <div class="video-copy">
-            <p class="eyebrow">Video Demo</p>
             <h2 id="intro-video-title">Conoce cómo construimos y soportamos tus servicios.</h2>
             <p>Preséntales a tus visitantes un vistazo real al flujo de trabajo antes de recorrer el resto de la web.</p>
         </div>
@@ -140,7 +145,7 @@
             <h3>Ventas 24/7</h3>
             <p>Catálogo administrable, carrito con cupones y pasarelas para vender productos físicos o digitales.</p>
             <ul>
-                <li>Checkout con PayPal y Mercado Pago.</li>
+                <li>Checkout con PayPal y Stripe.</li>
                 <li>Inventario, reseñas y soporte dedicado.</li>
             </ul>
             <a href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>#tienda-virtual-personalizable" class="link-arrow">Plan Tienda Virtual</a>
