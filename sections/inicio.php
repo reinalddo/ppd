@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="hero-cta-row">
-                    <a class="cta hero-cta" href="https://wa.me/573000000000?text=Hola%20Primer%20Paso%20Digital%2C%20necesito%20mi%20sitio%20web" target="_blank" rel="noopener">Haz que tus servicios destaquen</a>
+                    <a class="cta hero-cta" href="https://wa.me/584247238716?text=Hola%20Primer%20Paso%20Digital%2C%20necesito%20mi%20sitio%20web" target="_blank" rel="noopener">Haz que tus servicios destaquen</a>
                     <a class="ghost-btn ghost-light" href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>">Ver servicios y planes</a>
                 </div>
                 <div class="hero-splash-tags" aria-label="Servicios destacados">
@@ -145,7 +145,7 @@
             <h3 class="service-card-title">Presencia sólida</h3>
             <p>Multipágina con secciones de servicios, casos y formularios para dar confianza desde el inicio.</p>
             <ul>
-                <li>Hasta 5 páginas estratégicas.</li>
+                <li>Hasta 4 páginas estratégicas.</li>
                 <li>Hosting, SSL y SEO administrado.</li>
             </ul>
             <a href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>#servicios-planes" class="link-arrow">Plan Sitio Pro</a>

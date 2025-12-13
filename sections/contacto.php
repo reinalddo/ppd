@@ -12,7 +12,7 @@
                 </label>
                 <label>
                     <span>Email</span>
-                    <input type="email" name="email" placeholder="hola@empresa.com" required>
+                    <input type="email" name="email" placeholder="Tu correo electrónico" required>
                 </label>
                 <label>
                     <span>¿Qué necesitas?</span>
@@ -25,15 +25,15 @@
                     <p class="badge">WhatsApp</p>
                     <h3>Chat directo</h3>
                     <p>Respondo rápido para entender tu proyecto y compartirte los siguientes pasos.</p>
-                    <a class="whatsapp-link" href="https://wa.me/573000000000?text=Hola%20PPD%2C%20quiero%20hablar%20de%20mi%20sitio" target="_blank" rel="noopener">Abrir WhatsApp</a>
+                    <a class="whatsapp-link" href="https://wa.me/584247238716?text=Hola%20PPD%2C%20quiero%20hablar%20de%20mi%20sitio" target="_blank" rel="noopener">Abrir WhatsApp</a>
                 </article>
                 <article class="contact-method">
                     <p class="badge">Email</p>
-                    <h3>hola@primerpasodigital.com</h3>
+                    <h3>contacto@primerpasodigital.com</h3>
                     <p>Si prefieres detallar tus requerimientos por correo, responde con toda la información posible.</p>
-                    <a class="link-arrow" href="mailto:hola@primerpasodigital.com">Escríbeme</a>
+                    <a class="link-arrow" href="mailto:contacto@primerpasodigital.com">Escríbeme</a>
                 </article>
-                <article class="contact-method">
+                <article class="contact-method" style="display: none;">
                     <p class="badge">Llamada express</p>
                     <h3>Agenda 15 minutos</h3>
                     <p>Elige un horario rápido y resolvemos dudas por videollamada.</p>

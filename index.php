@@ -202,7 +202,7 @@ $quickLinks = [
         </div>
     </footer>
 
-    <a class="whatsapp-floating" href="https://wa.me/573000000000?text=Hola%20Primer%20Paso%20Digital%2C%20quiero%20hablar" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <a class="whatsapp-floating" href="https://wa.me/584247238716?text=Hola%20Primer%20Paso%20Digital%2C%20quiero%20hablar" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
         <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
         <span>WhatsApp</span>
     </a>
