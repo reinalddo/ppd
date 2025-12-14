@@ -1321,11 +1321,18 @@ nav a:hover {
 
  .plan-card.plan-highlight .plan-illustration {
      background: linear-gradient(145deg, #0b50d0, #00a3ff);
-     margin: -1.75rem -1.75rem 1.25rem;
+     margin: -1.75rem -1.75rem 1rem;
      border-radius: var(--radius-md) var(--radius-md) 0 0;
      min-height: 140px;
      width: auto;
      justify-content: flex-start;
+     padding-left: 2.25rem;
+     color: #fff;
+ }
+
+ .plan-card.plan-highlight .plan-illustration span {
+     color: #fff;
+     margin: 0 0 0.75rem;
  }
 
  .plan-card.plan-highlight .plan-illustration,

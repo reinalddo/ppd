@@ -107,6 +107,8 @@ $quickLinks = [
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="assets/css/main.css">
+    <script src="<?php echo htmlspecialchars($assetPath('assets/js/seo-config.js'), ENT_QUOTES, 'UTF-8'); ?>" defer></script>
+    <script src="<?php echo htmlspecialchars($assetPath('assets/js/web2agent.js'), ENT_QUOTES, 'UTF-8'); ?>" defer></script>
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
