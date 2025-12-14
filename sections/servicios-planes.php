@@ -82,115 +82,121 @@
             </article>
         </div>
 
-        <div id="planes" class="plan-grid">
-            <article class="plan-card">
-                <div class="plan-illustration plan-landing">
-                    <span>Landing Page</span>
-                </div>
-                <div class="plan-body">
-                    <p class="badge">Plan Landing Page</p>
-                    <h3>Ideal para campañas rápidas.</h3>
-                    <p>Captura leads con una sola página enfocada en conversión, formularios directos y CTA hacia WhatsApp.</p>
-                    <ul class="plan-features">
-                        <li>Diseño de Página Única de Alta Conversión.</li>
-                        <li>Formulario de Contacto directo.</li>
-                        <li>Botones de Llamada a la Acción optimizados.</li>
-                        <li>Integración con WhatsApp.</li>
-                        <li>Dominio y servidor incluido por 1 año.</li>
-                    </ul>
-                </div>
-                <div class="plan-price">
-                    <p class="price-tag"><strong>50 USD</strong><span>Pago inicial (incluye 1er año)</span></p>
-                    <p class="renew-note">Renovación anual: 70 USD (incluye hosting, dominio y soporte).</p>
-                    <a class="cta" href="https://wa.me/584247238716?text=Quiero%20el%20Plan%20Landing%20Page" target="_blank" rel="noopener">Hablar por WhatsApp</a>
-                </div>
-            </article>
+        <div id="planes" class="plan-layout">
+            <div class="plan-list" aria-label="Planes Web Administrados">
+                <article class="plan-card plan-card--compact">
+                    <div class="plan-illustration plan-landing">
+                        <span>Landing Page</span>
+                    </div>
+                    <div class="plan-body">
+                        <p class="badge">Plan Landing Page</p>
+                        <h3>Ideal para campañas rápidas.</h3>
+                        <p>Captura leads con un mensaje único y CTA directo a WhatsApp.</p>
+                        <ul class="plan-features">
+                            <li>Página única de alta conversión.</li>
+                            <li>Formulario directo + CTA WhatsApp.</li>
+                            <li>Copy y diseño incluidos.</li>
+                            <li>Hosting, dominio y soporte 1 año.</li>
+                        </ul>
+                    </div>
+                    <div class="plan-price">
+                        <p class="price-tag"><strong>50 USD</strong><span>Pago inicial (incluye 1er año)</span></p>
+                        <p class="renew-note">Renovación anual: 70 USD (hosting + dominio + soporte).</p>
+                        <a class="cta" href="https://wa.me/584247238716?text=Quiero%20el%20Plan%20Landing%20Page" target="_blank" rel="noopener">Hablar por WhatsApp</a>
+                    </div>
+                </article>
 
-            <article class="plan-card">
-                <div class="plan-illustration plan-sitio">
-                    <span>Sitio Básico</span>
-                </div>
-                <div class="plan-body">
-                    <p class="badge">Plan Sitio Web Básico</p>
-                    <h3>Muestra Solo lo que Importa</h3>
-                    <p>Muestra a tus clientes lo esencial de tu negocio con un diseño claro y funcional.</p>
-                    <ul class="plan-features">
-                        <li>Sitio Web Multipágina (Inicio, Servicios, Nosotros, Contacto).</li>
-                        <li>Secciones de Servicios y Galería de Imágenes.</li>
-                        <li>Formulario de Contacto.</li>
-                        <li>Dominio y servidor incluido por 1 año.</li>
-                        <li>Integración con WhatsApp.</li>
-                    </ul>
-                </div>
-                <div class="plan-price">
-                    <p class="renew-note">Este plan no incluye Módulo de Administración, los datos quedan fijos</p>
-                    <p class="price-tag"><strong>80 USD</strong></p>
-                    <p class="renew-note">Renovación anual: 70 USD (incluye hosting, dominio y soporte).</p>
-                    <a class="cta" href="https://wa.me/584247238716?text=Quiero%20el%20Plan%20Sitio%20Web%20Básico" target="_blank" rel="noopener">Hablar por WhatsApp</a>
-                </div>
-            </article>
-            <article class="plan-card">
-                <div class="plan-illustration plan-sitio">
-                    <span>Sitio Pro</span>
-                </div>
-                <div class="plan-body">
-                    <p class="badge">Plan Sitio Web Profesional</p>
-                    <h3>Presencia sólida para tu marca.</h3>
-                    <p>Incluye todo para comunicar servicios, mostrar casos y convertir con formularios y contenido estratégico.</p>
-                    <ul class="plan-features">
-                        <li><b>*Todo lo del Plan Básico</b></li>
-                        <li>Módulo de Administración para cambiar productos/servicios e información de contacto.</li>
-                    </ul>
-                </div>
-                <div class="plan-price">
-                    <p class="price-tag"><strong>150 USD</strong><span>Pago inicial (incluye 1er año)</span></p>
-                    <p class="renew-note">Renovación anual: 70 USD (incluye hosting, dominio y soporte).</p>
-                    <a class="cta" href="https://wa.me/584247238716?text=Quiero%20el%20Plan%20Sitio%20Web%20Profesional" target="_blank" rel="noopener">Hablar por WhatsApp</a>
-                </div>
-            </article>
+                <article class="plan-card plan-card--compact">
+                    <div class="plan-illustration plan-sitio">
+                        <span>Sitio Básico</span>
+                    </div>
+                    <div class="plan-body">
+                        <p class="badge">Plan Sitio Web Básico</p>
+                        <h3>Muestra solo lo esencial.</h3>
+                        <p>Estructura multipágina con toda la información clave y diseño responsive.</p>
+                        <ul class="plan-features">
+                            <li>Inicio, Servicios, Nosotros, Contacto.</li>
+                            <li>Galerías visuales y testimonios.</li>
+                            <li>Formulario de contacto.</li>
+                            <li>Dominio + hosting + soporte 1 año.</li>
+                        </ul>
+                    </div>
+                    <div class="plan-price">
+                        <p class="renew-note">Los contenidos se actualizan por nuestro equipo.</p>
+                        <p class="price-tag"><strong>80 USD</strong></p>
+                        <p class="renew-note">Renovación anual: 70 USD (hosting + dominio + soporte).</p>
+                        <a class="cta" href="https://wa.me/584247238716?text=Quiero%20el%20Plan%20Sitio%20Web%20Básico" target="_blank" rel="noopener">Hablar por WhatsApp</a>
+                    </div>
+                </article>
 
-            <article class="plan-card">
-                <div class="plan-illustration plan-sitio">
-                    <span>Sitio Pro+BLOG</span>
-                </div>
-                <div class="plan-body">
-                    <p class="badge">Plan Sitio Web Profesional + Blog</p>
-                    <h3>Realiza tus publicaciones fácilmente.</h3>
-                    <p>Administra tu web y blog con facilidad.</p>
-                    <ul class="plan-features">
-                        <li><b>*Todo lo del Plan Profesional</b></li>
-                        <li>Módulo de Administración para realizar publicaciones en tu blog.</li>
-                    </ul>
-                </div>
-                <div class="plan-price">
-                    <p class="price-tag"><strong>250 USD</strong><span>Pago inicial (incluye 1er año)</span></p>
-                    <p class="renew-note">Renovación anual: 70 USD (incluye hosting, dominio y soporte).</p>
-                    <a class="cta" href="https://wa.me/584247238716?text=Quiero%20el%20Plan%20Sitio%20Web%20Profesional+blog" target="_blank" rel="noopener">Hablar por WhatsApp</a>
-                </div>
-            </article>
+                <article class="plan-card plan-card--compact">
+                    <div class="plan-illustration plan-sitio">
+                        <span>Sitio Pro</span>
+                    </div>
+                    <div class="plan-body">
+                        <p class="badge">Plan Sitio Web Profesional</p>
+                        <h3>Presencia sólida para tu marca.</h3>
+                        <p>Añade panel de administración para editar textos y servicios cuando lo necesites.</p>
+                        <ul class="plan-features">
+                            <li>Todo lo del Plan Básico.</li>
+                            <li>Módulo de administración editable.</li>
+                            <li>Optimización SEO con IA.</li>
+                            <li>Monitoreo y soporte administrado.</li>
+                        </ul>
+                    </div>
+                    <div class="plan-price">
+                        <p class="price-tag"><strong>150 USD</strong><span>Pago inicial (incluye 1er año)</span></p>
+                        <p class="renew-note">Renovación anual: 70 USD (hosting + dominio + soporte).</p>
+                        <a class="cta" href="https://wa.me/584247238716?text=Quiero%20el%20Plan%20Sitio%20Web%20Profesional" target="_blank" rel="noopener">Hablar por WhatsApp</a>
+                    </div>
+                </article>
 
-            <article class="plan-card">
-                <div class="plan-illustration plan-tienda">
-                    <span>Tienda Virtual</span>
-                </div>
-                <div class="plan-body">
-                    <p class="badge">Plan Tienda Virtual</p>
-                    <h3>Vende productos 24/7.</h3>
-                    <p>Tienda online exclusiva de <strong>tvirtualshop.com</strong>, pensada para operar catálogo y ventas sin añadir páginas corporativas.</p>
-                    <ul class="plan-features">
-                        <li>Plataforma tvirtualshop enfocada en catálogo + panel administrado.</li>
-                        <li>Carrito de Compras y checkout optimizado.</li>
-                        <li>Integración con pasarelas Stripe, PayPal, etc.</li>
-                        <li>Gestión de Inventario y Pedidos con reportes.</li>
-                        <li>Importación masiva de productos desde Excel/CSV.</li>
-                    </ul>
-                </div>
-                <div class="plan-price">
-                    <p class="price-tag"><strong>Desde 130 USD</strong><span>Planes administrados según catálogo</span></p>
-                    <p class="renew-note">Incluye hosting administrado y soporte; conoce más en tvirtualshop.com.</p>
-                    <a class="cta" href="https://tvirtualshop.com" target="_blank" rel="noopener">Ver demo en tvirtualshop.com</a>
-                </div>
-            </article>
+                <article class="plan-card plan-card--compact">
+                    <div class="plan-illustration plan-sitio">
+                        <span>Sitio Pro+Blog</span>
+                    </div>
+                    <div class="plan-body">
+                        <p class="badge">Plan Sitio Web Profesional + Blog</p>
+                        <h3>Publica contenido cuando quieras.</h3>
+                        <p>Ideal para marcas que necesitan blog administrable y autoridad SEO.</p>
+                        <ul class="plan-features">
+                            <li>Todo lo del Plan Profesional.</li>
+                            <li>Panel para entradas de blog.</li>
+                            <li>Soporte para campañas y Ads.</li>
+                            <li>Dominios y SSL gestionados.</li>
+                        </ul>
+                    </div>
+                    <div class="plan-price">
+                        <p class="price-tag"><strong>250 USD</strong><span>Pago inicial (incluye 1er año)</span></p>
+                        <p class="renew-note">Renovación anual: 70 USD (hosting + dominio + soporte).</p>
+                        <a class="cta" href="https://wa.me/584247238716?text=Quiero%20el%20Plan%20Sitio%20Web%20Profesional+blog" target="_blank" rel="noopener">Hablar por WhatsApp</a>
+                    </div>
+                </article>
+
+                <article class="plan-card plan-highlight" aria-label="Plan Tienda Virtual">
+                    <div class="plan-illustration plan-tienda">
+                        <span>Tienda Virtual</span>
+                    </div>
+                    <div class="plan-body">
+                        <p class="badge">Plan Tienda Virtual tvirtualshop</p>
+                        <h3>La experiencia completa para vender 24/7.</h3>
+                        <p>Tienda online administrada sobre <strong>tvirtualshop.com</strong> con catálogo ilimitado, checkout seguro y automatizaciones activas. Ideal para negocios que necesitan crecer sin preocuparse por la infraestructura.</p>
+                        <ul class="plan-features">
+                            <li>Panel completo para productos, inventarios y envíos.</li>
+                            <li>Pasarelas Stripe, PayPal y monedas locales.</li>
+                            <li>Carrito con cupones, taxes y validaciones en vivo.</li>
+                            <li>Workflows postventa: notificaciones, descargas y soporte.</li>
+                            <li>Onboarding + importación masiva vía Excel.</li>
+                        </ul>
+                    </div>
+                    <div class="plan-price">
+                        <p class="price-tag"><strong>Desde 130 USD</strong><span>Planes administrados según catálogo</span></p>
+                        <p class="renew-note">Incluye hosting administrado y soporte experto. Escala cuando lo necesites.</p>
+                        <a class="cta" href="https://tvirtualshop.com" target="_blank" rel="noopener">Ver demo en tvirtualshop.com</a>
+                        <a class="cta" href="#tienda-virtual-personalizable" rel="noopener">Saber más ⬇️</a>
+                    </div>
+                </article>
+            </div>
         </div>
     </section>
 

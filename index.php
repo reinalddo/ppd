@@ -171,10 +171,10 @@ $quickLinks = [
                     <h3 id="footer-contact-title">Contacto</h3>
                     <p>Estamos aquí para ayudarte siempre.</p>
                     <div class="footer-social" aria-label="Redes sociales">
-                        <a href="https://www.facebook.com/primerpasodigital" target="_blank" rel="noopener" aria-label="Facebook Primer Paso Digital">
+                        <a href="https://www.facebook.com/PrimerPasoDigital" target="_blank" rel="noopener" aria-label="Facebook Primer Paso Digital">
                             <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
                         </a>
-                        <a href="https://www.instagram.com/primerpasodigital" target="_blank" rel="noopener" aria-label="Instagram Primer Paso Digital">
+                        <a href="https://www.instagram.com/primerpasodigital_ppd/" target="_blank" rel="noopener" aria-label="Instagram Primer Paso Digital">
                             <i class="fa-brands fa-instagram" aria-hidden="true"></i>
                         </a>
                     </div>

@@ -18,7 +18,7 @@
     --radius-md: 18px;
     --radius-sm: 12px;
     --shadow-soft: 0 25px 70px rgba(7, 47, 79, 0.12);
-    --max-width: 1200px;
+    --max-width: 1320px;
     --footer-bg: #0b1016;
     --footer-card: #1f232c;
     --footer-border: rgba(255, 255, 255, 0.12);
@@ -26,6 +26,16 @@
 
 * {
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
 }
 
 body {
@@ -601,6 +611,13 @@ nav a:hover {
     align-items: stretch;
 }
 
+@media (min-width: 1024px) {
+    .footer-grid {
+        grid-template-columns: repeat(3, minmax(0, 260px)) minmax(280px, 1fr);
+        gap: 2.5rem;
+    }
+}
+
 .footer-column h3,
 .footer-cta-card p:first-child {
     margin: 0 0 0.75rem;
@@ -691,6 +708,13 @@ nav a:hover {
     justify-content: center;
     color: rgba(255, 255, 255, 0.9);
     text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .footer-cta-card {
+        align-self: stretch;
+        padding: 2.5rem;
+    }
 }
 
 .footer-cta-card .ghost-btn {
@@ -1158,6 +1182,21 @@ nav a:hover {
     gap: 2rem;
 }
 
+.plan-layout {
+    margin-top: 3rem;
+}
+
+.plan-list {
+    display: grid;
+    gap: 1.75rem;
+}
+
+@media (min-width: 768px) {
+    .plan-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
 .plan-card {
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
@@ -1167,6 +1206,39 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.plan-card--compact {
+    padding: 1.75rem;
+    border-radius: var(--radius-md);
+    box-shadow: 0 18px 40px rgba(15, 27, 56, 0.08);
+    gap: 1rem;
+}
+
+.plan-card--compact .plan-body,
+.plan-card--compact .plan-price {
+    padding: 0;
+}
+
+.plan-card--compact .plan-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+.plan-card--compact .plan-body p {
+    margin-bottom: 0.5rem;
+    color: var(--muted);
+}
+
+.plan-card--compact .plan-features {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 0.35rem;
+}
+
+.plan-card--compact .plan-price {
+    margin-top: auto;
+    padding-top: 1rem;
 }
 
 .plan-illustration {
@@ -1185,6 +1257,13 @@ nav a:hover {
     background: rgba(255, 255, 255, 0.2);
     padding: 0.45rem 1rem;
     border-radius: 999px;
+}
+
+.plan-card--compact .plan-illustration {
+    margin: -1.75rem -1.75rem 1rem;
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+    min-height: 120px;
+    padding: 1.25rem 1.5rem;
 }
 
 .plan-landing {
@@ -1231,6 +1310,62 @@ nav a:hover {
     color: var(--muted);
     font-size: 0.95rem;
 }
+
+ .plan-card.plan-highlight {
+     background: linear-gradient(145deg, #f3f7ff, #cfdfff 70%, #b9d1ff);
+     color: var(--brand-navy-dark);
+     border: 1px solid rgba(11, 92, 241, 0.25);
+     box-shadow: 0 40px 90px rgba(11, 35, 88, 0.2);
+     grid-column: 1 / -1;
+ }
+
+ .plan-card.plan-highlight .plan-illustration {
+     background: linear-gradient(145deg, #0b50d0, #00a3ff);
+     margin: -1.75rem -1.75rem 1.25rem;
+     border-radius: var(--radius-md) var(--radius-md) 0 0;
+     min-height: 140px;
+     width: auto;
+     justify-content: flex-start;
+ }
+
+ .plan-card.plan-highlight .plan-illustration,
+ .plan-card.plan-highlight .plan-body,
+ .plan-card.plan-highlight .plan-price {
+     color: inherit;
+ }
+
+ .plan-card.plan-highlight .plan-body p,
+ .plan-card.plan-highlight .plan-body h3,
+ .plan-card.plan-highlight .plan-price,
+ .plan-card.plan-highlight .renew-note {
+     color: rgba(3, 26, 47, 0.9);
+ }
+
+ .plan-card.plan-highlight .plan-price {
+     border-top-color: rgba(11, 92, 241, 0.2);
+ }
+
+.plan-highlight .plan-features {
+    gap: 0.75rem;
+}
+
+ .plan-card.plan-highlight .plan-features li {
+     color: rgba(3, 26, 47, 0.8);
+ }
+
+ .plan-highlight .plan-features li::before {
+     background: var(--brand-orange);
+ }
+
+ .plan-card.plan-highlight .cta {
+     background: linear-gradient(120deg, #0b5cf1, #07b4ff);
+     color: #fff;
+     box-shadow: 0 20px 40px rgba(11, 92, 241, 0.35);
+ }
+
+ .plan-card.plan-highlight .cta:hover {
+     transform: translateY(-3px);
+ }
 
 .card h3 {
     margin-top: 0.5rem;

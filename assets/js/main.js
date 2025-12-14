@@ -4,6 +4,11 @@ docReady(() => {
     const nav = document.querySelector('nav');
     const toggle = document.querySelector('.menu-toggle');
     const navLinks = [...document.querySelectorAll('nav a[data-section]')];
+    const header = document.querySelector('header');
+    const supportsNativeSmoothScroll = 'scrollBehavior' in document.documentElement.style;
+    const prefersReducedMotion = typeof window.matchMedia === 'function'
+        ? window.matchMedia('(prefers-reduced-motion: reduce)').matches
+        : false;
 
     const closeMenu = () => nav && nav.classList.remove('open');
 
@@ -45,6 +50,76 @@ docReady(() => {
     };
 
     setActiveNav();
+
+    const animateScroll = (targetY, duration = 1000) => {
+        const startY = window.pageYOffset;
+        const distance = targetY - startY;
+        let startTime = null;
+
+        const easeInOutCubic = t => (t < 0.5)
+            ? 4 * t * t * t
+            : 1 - Math.pow(-2 * t + 2, 3) / 2;
+
+        const step = timestamp => {
+            if (startTime === null) {
+                startTime = timestamp;
+            }
+            const elapsed = timestamp - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const eased = easeInOutCubic(progress);
+            window.scrollTo(0, startY + distance * eased);
+            if (elapsed < duration) {
+                requestAnimationFrame(step);
+            }
+        };
+
+        requestAnimationFrame(step);
+    };
+
+    const scrollToPosition = top => {
+        if (prefersReducedMotion) {
+            window.scrollTo(0, top);
+            return;
+        }
+        if (supportsNativeSmoothScroll) {
+            window.scrollTo({ top, behavior: 'smooth' });
+        } else {
+            animateScroll(top, 1000);
+        }
+    };
+
+    const smoothAnchors = () => {
+        const anchorLinks = [...document.querySelectorAll('a[href^="#"]')]
+            .filter(link => link.getAttribute('href') && link.getAttribute('href') !== '#');
+
+        if (!anchorLinks.length) {
+            return;
+        }
+
+        const getTargetOffset = target => {
+            const headerOffset = header ? header.offsetHeight + 12 : 0;
+            const rect = target.getBoundingClientRect();
+            return rect.top + window.pageYOffset - headerOffset;
+        };
+
+        anchorLinks.forEach(link => {
+            link.addEventListener('click', event => {
+                const hash = link.getAttribute('href');
+                const target = hash ? document.querySelector(hash) : null;
+
+                if (!target) {
+                    return;
+                }
+
+                event.preventDefault();
+                closeMenu();
+                scrollToPosition(getTargetOffset(target));
+                history.pushState(null, '', hash);
+            });
+        });
+    };
+
+    smoothAnchors();
 
     const heroSliders = document.querySelectorAll('[data-hero-slider]');
     heroSliders.forEach(sliderEl => {
