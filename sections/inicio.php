@@ -61,17 +61,17 @@
                             <li>Hosting administrado + SSL.</li>
                             <li>Pagos PayPal y Stripe.</li>
                         </ul>
-                        <p class="visual-price">Desde USD 70</p>
+                        <p class="visual-price">Desde USD 50</p>
                     </article>
                     <article class="hero-visual-card" data-visual-slide="1">
                         <p class="eyebrow">Ofrece tus Productos/Servicios</p>
                         <h3>Sitio Web Profesional</h3>
                         <ul>
                             <li>Administrador de la información de tu web</li>
-                            <li>Formulario de Contacto y Whatsapp</li>
+                            <li>Formulario de Contacto y WhatsApp</li>
                             <li>Vista para celulares</li>
                         </ul>
-                        <p class="visual-price">Desde USD 75</p>
+                        <p class="visual-price">Desde USD 80</p>
                     </article>
                     <article class="hero-visual-card" data-visual-slide="2">
                         <p class="eyebrow">Presencia continua</p>
@@ -81,7 +81,7 @@
                             <li>SEO técnico y contenidos optimizados.</li>
                             <li>Soporte Mensual</li>
                         </ul>
-                        <p class="visual-price">Desde USD 175</p>
+                        <p class="visual-price">Desde USD 150</p>
                     </article>
                     <article class="hero-visual-card" data-visual-slide="3">
                         <p class="eyebrow">Venta 24/7</p>
