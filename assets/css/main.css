@@ -1924,7 +1924,8 @@ textarea {
     }
 
     .contact-methods {
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        grid-template-columns: 1fr;
+        align-content: flex-start;
     }
 
     .plan-grid {
