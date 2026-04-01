@@ -128,7 +128,7 @@
 <section class="service-card-section reveal" aria-labelledby="service-card-title">
     <div class="wrapper">
         <h2 class="eyebrow section-heading" id="service-card-title">Servicios principales</h2>
-        <h3 class="service-card-lead">Elige cómo quieres lanzar hoy.</h3>
+        <h3 class="service-card-lead">Elige cómo quieres lanzar y promocionar hoy.</h3>
         <div class="hero-service-promo">
         <article class="hero-service-card" data-service="landing">
             <h2 class="service-chip">Landing Pages</h2>
@@ -159,6 +159,17 @@
                 <li>Inventario, reseñas y soporte dedicado.</li>
             </ul>
             <a href="<?php echo htmlspecialchars($pathFor('servicios-planes'), ENT_QUOTES, 'UTF-8'); ?>#tienda-virtual-personalizable" class="link-arrow">Plan Tienda Virtual</a>
+        </article>
+        <article class="hero-service-card" data-service="social">
+            <h2 class="service-chip">Gestion de Redes y ADS</h2>
+            <h3 class="service-card-title">Contenido + anuncios que atraen clientes</h3>
+            <p>Gestionamos Facebook e Instagram con reels, historias, posts informativos y campanas ADS pensadas para mantener tu negocio visible y convertir interes en conversaciones.</p>
+            <ul>
+                <li>Reels, historias y publicaciones segun el plan.</li>
+                <li>Campanas con imagen o video para atraer clientes.</li>
+                <li>Incluye tienda virtual de regalo y no requiere tus claves.</li>
+            </ul>
+            <a href="<?php echo htmlspecialchars($pathFor('servicios-planes') . '#gestion-redes-ads', ENT_QUOTES, 'UTF-8'); ?>" class="link-arrow">Ver planes de ADS</a>
         </article>
         </div>
     </div>

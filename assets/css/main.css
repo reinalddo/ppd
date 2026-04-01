@@ -786,6 +786,10 @@ nav a:hover {
     background: linear-gradient(150deg, rgba(255, 136, 18, 0.22), rgba(255, 136, 18, 0.08));
 }
 
+.hero-service-card[data-service="social"] {
+    background: linear-gradient(150deg, rgba(30, 100, 255, 0.16), rgba(7, 47, 79, 0.08) 55%, rgba(255, 136, 18, 0.12));
+}
+
 .service-chip {
     display: inline-flex;
     align-items: center;
@@ -1777,11 +1781,253 @@ nav a:hover {
     color: #fff;
 }
 
+.social-ads-showcase {
+    margin-top: 2.5rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(244, 247, 255, 0.96));
+    overflow: hidden;
+}
+
+.social-ads-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    max-width: 860px;
+    margin: 0 auto 2.75rem;
+}
+
+.social-ads-header h2 {
+    margin: 0;
+    max-width: 18ch;
+    text-transform: uppercase;
+    color: #1d5fe2;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    line-height: 1.05;
+}
+
+.social-ads-banner {
+    margin: 0;
+    padding: 0.8rem 1.5rem;
+    border-radius: 999px;
+    background: linear-gradient(120deg, #ffb319, #ff8a00);
+    color: #04203f;
+    font-weight: 700;
+    box-shadow: 0 18px 45px rgba(255, 136, 18, 0.22);
+}
+
+.social-ads-lead {
+    margin: 0;
+    max-width: 760px;
+}
+
+.social-ads-note {
+    margin: 0;
+    padding: 0.85rem 1.4rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid rgba(255, 120, 120, 0.35);
+    background: rgba(255, 244, 244, 0.96);
+    color: #d34e32;
+    font-weight: 600;
+}
+
+.social-ads-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+@media (min-width: 980px) {
+    .social-ads-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        align-items: stretch;
+    }
+}
+
+.social-ads-card {
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid rgba(7, 47, 79, 0.1);
+    border-radius: 28px;
+    overflow: hidden;
+    box-shadow: 0 28px 65px rgba(7, 47, 79, 0.11);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.social-ads-card--featured {
+    border: 2px solid #1d5fe2;
+    box-shadow: 0 32px 80px rgba(29, 95, 226, 0.18);
+    transform: translateY(-0.5rem);
+}
+
+.social-ads-card__header {
+    padding: 1.75rem 1.5rem 1.35rem;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(245, 248, 255, 0.96), rgba(235, 241, 255, 0.72));
+    border-bottom: 1px solid rgba(7, 47, 79, 0.08);
+}
+
+.social-ads-plan,
+.social-ads-subtitle,
+.social-ads-label,
+.social-ads-price,
+.social-ads-footer p {
+    margin: 0;
+}
+
+.social-ads-plan {
+    color: #1d5fe2;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
+.social-ads-subtitle {
+    margin-top: 0.35rem;
+    color: var(--muted);
+    font-size: 0.92rem;
+}
+
+.social-ads-block {
+    padding: 1.5rem;
+}
+
+.social-ads-block--ads {
+    background: linear-gradient(180deg, rgba(238, 245, 255, 0.92), rgba(230, 239, 255, 0.82));
+    border-top: 1px solid rgba(29, 95, 226, 0.12);
+    border-bottom: 1px solid rgba(29, 95, 226, 0.12);
+}
+
+.social-ads-block__top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-ads-label {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.75rem;
+    color: #607089;
+    font-weight: 700;
+}
+
+.social-ads-label--accent {
+    color: #1d5fe2;
+}
+
+.social-ads-frequency {
+    display: inline-flex;
+    margin-top: 0.4rem;
+    padding: 0.28rem 0.7rem;
+    border-radius: 999px;
+    background: #20b875;
+    color: #fff;
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.social-ads-price {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #031a2f;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.social-ads-price span {
+    font-size: 0.9rem;
+    color: #7e8da6;
+    font-weight: 500;
+}
+
+.social-ads-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.65rem;
+    color: var(--muted);
+}
+
+.social-ads-features li {
+    position: relative;
+    padding-left: 1.35rem;
+}
+
+.social-ads-features li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.6rem;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #1d5fe2;
+}
+
+.social-ads-features strong {
+    color: #031a2f;
+}
+
+.social-ads-footer {
+    margin-top: auto;
+    padding: 1.2rem 1.5rem;
+    background: #091426;
+    color: #fff;
+    text-align: center;
+}
+
+.social-ads-footer a {
+    color: var(--brand-orange-light);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.social-ads-cta {
+    margin: 1.35rem 1.5rem 1.5rem;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(120deg, #22cc68, #1ead58);
+    box-shadow: 0 18px 35px rgba(34, 204, 104, 0.24);
+}
+
+.social-ads-cta:hover,
+.social-ads-cta:focus-visible {
+    filter: brightness(1.04);
+}
+
+@media (max-width: 979px) {
+    .social-ads-card--featured {
+        transform: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .social-ads-banner,
+    .social-ads-note {
+        width: 100%;
+    }
+
+    .social-ads-block__top {
+        flex-direction: column;
+    }
+
+    .social-ads-price {
+        font-size: 2rem;
+    }
+}
+
 .pricing-note {
     margin-top: 1.5rem;
     color: var(--muted);
 }
-
+    scroll-margin-top: 7rem;
 .contact-grid {
     display: grid;
     gap: 2rem;

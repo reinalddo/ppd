@@ -273,4 +273,142 @@
             </div>
         </div>
     </section>
+
+    <section id="gestion-redes-ads" class="section social-ads-showcase reveal" aria-labelledby="gestion-redes-ads-title">
+        <div class="social-ads-header">
+            <p class="eyebrow section-label">Nuevo servicio administrado</p>
+            <h2 id="gestion-redes-ads-title">Publicidad para tu negocio en redes sociales</h2>
+            <p class="social-ads-banner">Todos nuestros planes incluyen una tienda virtual de regalo.</p>
+            <p class="lead social-ads-lead">Hoy en día, un negocio que no está en redes sociales es invisible. Este servicio combina presencia orgánica y campañas ADS para conectar con clientes potenciales, construir confianza y vender con más constancia.</p>
+            <p class="social-ads-note">Importante: no se requieren claves de acceso de sus redes sociales.</p>
+        </div>
+
+        <div class="social-ads-grid" aria-label="Planes de gestión de redes sociales y ADS">
+            <article class="social-ads-card">
+                <div class="social-ads-card__header">
+                    <p class="social-ads-plan">Plan Inicial</p>
+                    <p class="social-ads-subtitle">Esencial para comenzar</p>
+                </div>
+
+                <div class="social-ads-block social-ads-block--organic">
+                    <div class="social-ads-block__top">
+                        <div>
+                            <p class="social-ads-label">Opción orgánica</p>
+                        </div>
+                        <p class="social-ads-price">$50 <span>/mes</span></p>
+                    </div>
+                    <ul class="social-ads-features">
+                        <li><strong>4 reels (máx. 30 seg)</strong> o historias.</li>
+                        <li><strong>4 posts de imagen</strong> con frecuencia semanal.</li>
+                        <li>Gestión de Facebook e Instagram.</li>
+                    </ul>
+                </div>
+
+                <div class="social-ads-block social-ads-block--ads">
+                    <div class="social-ads-block__top">
+                        <div>
+                            <p class="social-ads-label social-ads-label--accent">Opción full ADS</p>
+                            <span class="social-ads-frequency">Publicidad 2 días/semana</span>
+                        </div>
+                        <p class="social-ads-price">$90 <span>/mes</span></p>
+                    </div>
+                    <ul class="social-ads-features">
+                        <li><strong>Todo lo anterior</strong> incluido.</li>
+                        <li>Campaña para <strong>atraer clientes</strong>.</li>
+                        <li>Opción de <strong>imagen o video</strong> de 30 seg.</li>
+                    </ul>
+                </div>
+
+                <div class="social-ads-footer">
+                    <p>Regalo: Tienda virtual</p>
+                    <a href="https://tienda.tvirtualshop.com/" target="_blank" rel="noopener">Ver demo aquí</a>
+                </div>
+                <a class="cta social-ads-cta" href="https://wa.me/584247238716?text=Hola%2C%20deseo%20contratar%20el%20Plan%20Inicial%20de%20Redes%20Sociales" target="_blank" rel="noopener">Consultar por WhatsApp</a>
+            </article>
+
+            <article class="social-ads-card social-ads-card--featured">
+                <div class="social-ads-card__header">
+                    <p class="social-ads-plan">Plan Intermedio</p>
+                    <p class="social-ads-subtitle">Mayor frecuencia y alcance</p>
+                </div>
+
+                <div class="social-ads-block social-ads-block--organic">
+                    <div class="social-ads-block__top">
+                        <div>
+                            <p class="social-ads-label">Opción orgánica</p>
+                        </div>
+                        <p class="social-ads-price">$95 <span>/mes</span></p>
+                    </div>
+                    <ul class="social-ads-features">
+                        <li><strong>8 reels (máx. 30 seg)</strong> o historias.</li>
+                        <li><strong>8 posts informativos</strong> con frecuencia de 2 por semana.</li>
+                        <li>Gestión de Facebook e Instagram.</li>
+                    </ul>
+                </div>
+
+                <div class="social-ads-block social-ads-block--ads">
+                    <div class="social-ads-block__top">
+                        <div>
+                            <p class="social-ads-label social-ads-label--accent">Opción full ADS</p>
+                            <span class="social-ads-frequency">Publicidad 4 días/semana</span>
+                        </div>
+                        <p class="social-ads-price">$195 <span>/mes</span></p>
+                    </div>
+                    <ul class="social-ads-features">
+                        <li><strong>Todo lo anterior</strong> incluido.</li>
+                        <li>Campaña para <strong>atraer clientes</strong>.</li>
+                        <li>Opción de <strong>imagen o video</strong> de 30 seg.</li>
+                    </ul>
+                </div>
+
+                <div class="social-ads-footer">
+                    <p>Regalo: Tienda virtual</p>
+                    <a href="https://tienda.tvirtualshop.com/" target="_blank" rel="noopener">Ver demo aquí</a>
+                </div>
+                <a class="cta social-ads-cta" href="https://wa.me/584247238716?text=Hola%2C%20me%20interesa%20el%20Plan%20Intermedio%20de%20Redes%20Sociales" target="_blank" rel="noopener">Consultar por WhatsApp</a>
+            </article>
+
+            <article class="social-ads-card">
+                <div class="social-ads-card__header">
+                    <p class="social-ads-plan">Plan Avanzado</p>
+                    <p class="social-ads-subtitle">Liderazgo total de mercado</p>
+                </div>
+
+                <div class="social-ads-block social-ads-block--organic">
+                    <div class="social-ads-block__top">
+                        <div>
+                            <p class="social-ads-label">Opción orgánica</p>
+                        </div>
+                        <p class="social-ads-price">$150 <span>/mes</span></p>
+                    </div>
+                    <ul class="social-ads-features">
+                        <li><strong>16 reels (máx. 30 seg)</strong> o historias.</li>
+                        <li><strong>16 posts informativos</strong> con frecuencia de 4 por semana.</li>
+                        <li>Gestión de Facebook e Instagram.</li>
+                    </ul>
+                </div>
+
+                <div class="social-ads-block social-ads-block--ads">
+                    <div class="social-ads-block__top">
+                        <div>
+                            <p class="social-ads-label social-ads-label--accent">Opción full ADS</p>
+                            <span class="social-ads-frequency">Publicidad todos los días</span>
+                        </div>
+                        <p class="social-ads-price">$300 <span>/mes</span></p>
+                    </div>
+                    <ul class="social-ads-features">
+                        <li><strong>Todo lo anterior</strong> incluido.</li>
+                        <li>Campaña para <strong>atraer clientes</strong>.</li>
+                        <li>Opción de <strong>imagen o video</strong> de 30 seg.</li>
+                    </ul>
+                </div>
+
+                <div class="social-ads-footer">
+                    <p>Regalo: Tienda virtual</p>
+                    <a href="https://tienda.tvirtualshop.com/" target="_blank" rel="noopener">Ver demo aquí</a>
+                </div>
+                <a class="cta social-ads-cta" href="https://wa.me/584247238716?text=Hola%2C%20quiero%20contratar%20el%20Plan%20Avanzado%20de%20Redes%20Sociales" target="_blank" rel="noopener">Consultar por WhatsApp</a>
+            </article>
+        </div>
+    </section>
 </div>
