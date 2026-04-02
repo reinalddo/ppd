@@ -73,7 +73,13 @@ $assetPath = static function (string $relative) use ($basePath): string {
     return $prefix . $relative;
 };
 
-$canonicalUrl = $pathFor($currentSection);
+$absoluteUrl = static function (string $path) use ($siteOrigin): string {
+    return $siteOrigin . ($path === '/' ? '/' : $path);
+};
+
+$canonicalPath = $pathFor($currentSection);
+$canonicalUrl = $absoluteUrl($canonicalPath);
+$logoUrl = $absoluteUrl('/' . ltrim($assetPath('logos/logo.jpg'), '/'));
 
 $quickLinks = [
     ['label' => 'Inicio', 'url' => $pathFor('inicio')],
@@ -98,7 +104,7 @@ $quickLinks = [
     <meta property="og:type" content="website">
     <meta property="og:title" content="<?php echo htmlspecialchars($activeConfig['title'], ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($activeConfig['description'], ENT_QUOTES, 'UTF-8'); ?>">
-    <meta property="og:image" content="<?php echo htmlspecialchars($assetPath('logos/logo.jpg'), ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:image" content="<?php echo htmlspecialchars($logoUrl, ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="theme-color" content="#06090f">
@@ -115,7 +121,7 @@ $quickLinks = [
             "@type": "Organization",
             "name": "Primer Paso Digital",
             "url": "<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>",
-            "logo": "<?php echo htmlspecialchars($assetPath('logos/logo.jpg'), ENT_QUOTES, 'UTF-8'); ?>",
+            "logo": "<?php echo htmlspecialchars($logoUrl, ENT_QUOTES, 'UTF-8'); ?>",
             "contactPoint": {
                 "@type": "ContactPoint",
                 "contactType": "sales",
