@@ -10,10 +10,7 @@
         '': 'index',
         '/inicio': 'index',
         '/index.php': 'index',
-        '/servicios': 'servicios',
         '/servicios-planes': 'servicios',
-        '/ventajas': 'ventajas',
-        '/planes': 'planes',
         '/contacto': 'contacto'
     };
 

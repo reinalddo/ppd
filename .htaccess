@@ -1,9 +1,14 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
+    RewriteRule ^servicios/?$ servicios-planes [R=301,L]
+    RewriteRule ^planes/?$ servicios-planes#planes [R=301,L,NE]
+    RewriteRule ^ventajas/?$ servicios-planes#tienda-virtual-personalizable [R=301,L,NE]
+
     RewriteCond %{REQUEST_FILENAME} -f [OR]
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^ - [L]
 
     RewriteRule ^(inicio|servicios-planes|contacto|politica-de-privacidad|terminos-de-servicio)/?$ index.php?section=$1 [QSA,L]
+    RewriteRule ^ 404.php [QSA,L]
 </IfModule>

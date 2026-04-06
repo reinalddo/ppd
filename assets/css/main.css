@@ -1765,6 +1765,29 @@ nav a:hover {
     font-size: 0.9rem;
 }
 
+.error-code {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: #fff;
+}
+
+.error-path {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    margin: 0 auto 1.5rem;
+    padding: 0.55rem 0.9rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 0.92rem;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+}
+
 @media (max-width: 480px) {
     .thanks-card {
         padding: 2.25rem 1.5rem;
