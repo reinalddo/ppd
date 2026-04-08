@@ -25,6 +25,7 @@ $assetPath = static function (string $relative) use ($basePath): string {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="<?php echo htmlspecialchars($assetPath('assets/css/main.css'), ENT_QUOTES, 'UTF-8'); ?>">
+    <?php include __DIR__ . '/includes/google-analytics.php'; ?>
 </head>
 <body class="thanks-body">
     <main class="thanks-main">
