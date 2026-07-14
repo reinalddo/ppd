@@ -5,7 +5,7 @@
                 <div class="hero-slider-shell">
                     <div class="hero-slider" aria-live="polite" data-hero-slider>
                     <div class="hero-slide active">
-                        <p class="hero-super">Contrataf tu Presencia en Internet</p>
+                        <p class="hero-super">Contrata tu Presencia en Internet</p>
                         <h3>La primera visita de tu cliente ya no es a tu tienda física, es a tu página web o a tu tienda virtual. Si no te encuentran, esa venta se la lleva tu competencia.</h3>
                         <p class="lead">Diseñamos landing pages, sitios profesionales y tiendas virtuales administradas para que promociones tus servicios con un solo mensaje claro y un CTA directo a WhatsApp.</p>
                     </div>
