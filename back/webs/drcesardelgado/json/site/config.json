@@ -1,0 +1,79 @@
+{
+  "nombre": "Dr. César Delgado",
+  "eslogan": "Cirugía plástica facial y corporal con atención personalizada en cuatro sedes de consulta.",
+  "favicon": "assets/header/icon.png",
+  "telefonoWhatsapp": "584127129972",
+  "telefonoPrincipal": {
+    "texto": "0412-7801860",
+    "href": "tel:+584127801860",
+    "title": "Llamar sede Caracas"
+  },
+  "telefonoAlterno": {
+    "texto": "0414-5202914",
+    "href": "tel:+584145202914",
+    "title": "Llamar sede Barquisimeto"
+  },
+  "correo": {
+    "texto": "Drcesar@cesarplastic.com",
+    "href": "mailto:Drcesar@cesarplastic.com",
+    "title": "Enviar correo a Dr. César Delgado"
+  },
+  "direccion": "Sedes de consulta en Caracas, Barquisimeto, Acarigua y San Carlos.",
+  "telefonos": [
+    {
+      "sede": "Caracas",
+      "texto": "0412-7801860",
+      "href": "tel:+584127801860",
+      "title": "Llamar sede Caracas"
+    },
+    {
+      "sede": "Barquisimeto",
+      "texto": "0414-5202914",
+      "href": "tel:+584145202914",
+      "title": "Llamar sede Barquisimeto"
+    },
+    {
+      "sede": "Acarigua",
+      "texto": "0412-4454850",
+      "href": "tel:+584124454850",
+      "title": "Llamar sede Acarigua"
+    },
+    {
+      "sede": "San Carlos",
+      "texto": "0412-5364463",
+      "href": "tel:+584125364463",
+      "title": "Llamar sede San Carlos"
+    }
+  ],
+  "correos": [
+    {
+      "texto": "Drcesar@cesarplastic.com",
+      "href": "mailto:Drcesar@cesarplastic.com",
+      "title": "Enviar correo a Dr. César Delgado"
+    },
+    {
+      "texto": "Cesardplastic@gmail.com",
+      "href": "mailto:Cesardplastic@gmail.com",
+      "title": "Enviar correo alterno"
+    }
+  ],
+  "sedes": [
+    {
+      "ciudad": "Caracas",
+      "lugar": "Unidad Quirúrgica XILUET",
+      "detalle": "Las Mercedes"
+    },
+    {
+      "ciudad": "Barquisimeto",
+      "lugar": "Torre BEL"
+    },
+    {
+      "ciudad": "Acarigua",
+      "lugar": "Clínica VMI"
+    },
+    {
+      "ciudad": "San Carlos",
+      "lugar": "Clínica Fernández Rodríguez"
+    }
+  ]
+}

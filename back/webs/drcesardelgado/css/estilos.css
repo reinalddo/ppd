@@ -1,0 +1,20 @@
+/* NAV DE CRISTAL */
+.navbar {
+    transition: all 0.4s ease-in-out; /* Animación suave */
+    padding: 1.5rem 0; /* Más alto al principio (Elegante) */
+    background-color: transparent; /* Transparente por defecto */
+}
+
+/* Clase que agregaremos con JS al bajar */
+.navbar.scrolled {
+    padding: 0.8rem 0; /* Se hace más compacto */
+    background-color: rgba(0, 98, 230, 0.95) !important; /* Azul semi-transparente */
+    backdrop-filter: blur(10px); /* EFECTO CRISTAL (Borroso detrás) */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+
+/* Ajuste para que el logo resalte siempre */
+.navbar-brand {
+    font-size: 1.5rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}

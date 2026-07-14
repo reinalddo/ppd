@@ -1,0 +1,701 @@
+{
+  "pageTitle": "Servicios - Dr. César Delgado",
+  "header": {
+    "fondo": "assets/header/fondo-header.jpeg",
+    "badge": "Cirugía plástica facial y corporal",
+    "titulo": "Nuestros Servicios",
+    "texto": "Explora procedimientos quirúrgicos y mínimamente invasivos pensados para realzar la armonía facial y corporal con seguridad, naturalidad y una planificación personalizada."
+  },
+  "cards": [
+    {
+      "ancla": "cirugia-mamaria",
+      "titulo": "Cirugía mamaria de aumento y reducción",
+      "texto": "Procedimientos personalizados para armonizar volumen, forma y proporción del busto con resultados naturales.",
+      "icono": "bi bi-plus-slash-minus",
+      "borde": "#0d6efd",
+      "iconoFondo": "rgba(13,110,253,0.12)",
+      "iconoColor": "#0d6efd",
+      "linkColor": "#0d6efd"
+    },
+    {
+      "ancla": "mastopexia",
+      "titulo": "Mastopexia",
+      "texto": "Elevación mamaria para reposicionar y rejuvenecer el busto, con o sin implantes según la indicación.",
+      "icono": "bi bi-arrow-up-circle-fill",
+      "borde": "#0dcaf0",
+      "iconoFondo": "rgba(13,202,240,0.12)",
+      "iconoColor": "#0dcaf0",
+      "linkColor": "#0dcaf0"
+    },
+    {
+      "ancla": "cirugia-corporal",
+      "titulo": "Cirugía corporal",
+      "texto": "Alternativas para redefinir silueta, corregir flacidez y mejorar contornos de forma integral.",
+      "icono": "bi bi-person-bounding-box",
+      "borde": "#198754",
+      "iconoFondo": "rgba(25,135,84,0.12)",
+      "iconoColor": "#198754",
+      "linkColor": "#198754"
+    },
+    {
+      "ancla": "lipoescultura",
+      "titulo": "Lipoescultura",
+      "texto": "Modelado corporal selectivo para definir cintura, abdomen, espalda y otras zonas con precisión.",
+      "icono": "bi bi-scissors",
+      "borde": "#ffc107",
+      "iconoFondo": "rgba(255,193,7,0.18)",
+      "iconoColor": "#ffc107",
+      "linkColor": "#ffc107"
+    },
+    {
+      "ancla": "lipotransferencia",
+      "titulo": "Lipotransferencia",
+      "texto": "Uso de grasa propia purificada para aportar volumen natural y mejorar transiciones corporales o faciales.",
+      "icono": "bi bi-arrow-left-right",
+      "borde": "#6f42c1",
+      "iconoFondo": "rgba(111,66,193,0.12)",
+      "iconoColor": "#6f42c1",
+      "linkColor": "#6f42c1"
+    },
+    {
+      "ancla": "abdominoplastia",
+      "titulo": "Abdominoplastia",
+      "texto": "Corrección del exceso de piel y flacidez abdominal para lograr un abdomen más firme y definido.",
+      "icono": "bi bi-bounding-box-circles",
+      "borde": "#dc3545",
+      "iconoFondo": "rgba(220,53,69,0.12)",
+      "iconoColor": "#dc3545",
+      "linkColor": "#dc3545"
+    },
+    {
+      "ancla": "contorno-post-bariatrico",
+      "titulo": "Contorno post bariátrico",
+      "texto": "Cirugía reconstructiva y estética para tratar excedentes cutáneos tras una gran pérdida de peso.",
+      "icono": "bi bi-person-check-fill",
+      "borde": "#0d6efd",
+      "iconoFondo": "rgba(13,110,253,0.12)",
+      "iconoColor": "#0d6efd",
+      "linkColor": "#0d6efd"
+    },
+    {
+      "ancla": "retiro-biopolimeros",
+      "titulo": "Retiro de biopolímeros",
+      "texto": "Abordaje especializado para extraer material infiltrado y tratar secuelas funcionales y estéticas.",
+      "icono": "bi bi-shield-x",
+      "borde": "#0dcaf0",
+      "iconoFondo": "rgba(13,202,240,0.12)",
+      "iconoColor": "#0dcaf0",
+      "linkColor": "#0dcaf0"
+    },
+    {
+      "ancla": "cirugia-facial",
+      "titulo": "Cirugía facial",
+      "texto": "Procedimientos orientados a equilibrar facciones y rejuvenecer el rostro preservando la naturalidad.",
+      "icono": "bi bi-emoji-smile",
+      "borde": "#198754",
+      "iconoFondo": "rgba(25,135,84,0.12)",
+      "iconoColor": "#198754",
+      "linkColor": "#198754"
+    },
+    {
+      "ancla": "lifting-facial",
+      "titulo": "Lifting facial",
+      "texto": "Reposicionamiento de tejidos para combatir flacidez y recuperar un aspecto fresco y descansado.",
+      "icono": "bi bi-arrow-up-right-circle-fill",
+      "borde": "#ffc107",
+      "iconoFondo": "rgba(255,193,7,0.18)",
+      "iconoColor": "#ffc107",
+      "linkColor": "#ffc107"
+    },
+    {
+      "ancla": "rinoplastia",
+      "titulo": "Rinoplastia",
+      "texto": "Mejora estética y funcional de la nariz respetando la armonía facial y la respiración.",
+      "icono": "bi bi-magic",
+      "borde": "#6f42c1",
+      "iconoFondo": "rgba(111,66,193,0.12)",
+      "iconoColor": "#6f42c1",
+      "linkColor": "#6f42c1"
+    },
+    {
+      "ancla": "blefaroplastia",
+      "titulo": "Blefaroplastia",
+      "texto": "Corrección de párpados caídos y bolsas para una mirada más descansada y rejuvenecida.",
+      "icono": "bi bi-eye-fill",
+      "borde": "#dc3545",
+      "iconoFondo": "rgba(220,53,69,0.12)",
+      "iconoColor": "#dc3545",
+      "linkColor": "#dc3545"
+    },
+    {
+      "ancla": "otoplastia",
+      "titulo": "Otoplastia",
+      "texto": "Cirugía de orejas prominentes o asimétricas para mejorar proporción y autoestima.",
+      "icono": "bi bi-soundwave",
+      "borde": "#0d6efd",
+      "iconoFondo": "rgba(13,110,253,0.12)",
+      "iconoColor": "#0d6efd",
+      "linkColor": "#0d6efd"
+    },
+    {
+      "ancla": "cervicoplastia",
+      "titulo": "Cervicoplastia",
+      "texto": "Definición del cuello y el ángulo mandibular mediante corrección de flacidez y bandas.",
+      "icono": "bi bi-person-lines-fill",
+      "borde": "#0dcaf0",
+      "iconoFondo": "rgba(13,202,240,0.12)",
+      "iconoColor": "#0dcaf0",
+      "linkColor": "#0dcaf0"
+    },
+    {
+      "ancla": "frontoplastia",
+      "titulo": "Frontoplastia",
+      "texto": "Procedimiento enfocado en suavizar la frente y armonizar su relación con cejas y ojos.",
+      "icono": "bi bi-chevron-bar-up",
+      "borde": "#198754",
+      "iconoFondo": "rgba(25,135,84,0.12)",
+      "iconoColor": "#198754",
+      "linkColor": "#198754"
+    },
+    {
+      "ancla": "lifting-cejas",
+      "titulo": "Lifting de cejas",
+      "texto": "Elevación de cejas para abrir la mirada y disminuir el aspecto cansado o severo.",
+      "icono": "bi bi-arrow-up-circle",
+      "borde": "#ffc107",
+      "iconoFondo": "rgba(255,193,7,0.18)",
+      "iconoColor": "#ffc107",
+      "linkColor": "#ffc107"
+    },
+    {
+      "ancla": "armonizacion-facial",
+      "titulo": "Armonización facial",
+      "texto": "Procedimientos mínimamente invasivos para equilibrar volúmenes, perfilar rasgos y rejuvenecer.",
+      "icono": "bi bi-stars",
+      "borde": "#6f42c1",
+      "iconoFondo": "rgba(111,66,193,0.12)",
+      "iconoColor": "#6f42c1",
+      "linkColor": "#6f42c1"
+    },
+    {
+      "ancla": "botox",
+      "titulo": "BOTOX",
+      "texto": "Aplicación precisa para suavizar líneas de expresión y prevenir arrugas manteniendo naturalidad.",
+      "icono": "bi bi-droplet-half",
+      "borde": "#dc3545",
+      "iconoFondo": "rgba(220,53,69,0.12)",
+      "iconoColor": "#dc3545",
+      "linkColor": "#dc3545"
+    },
+    {
+      "ancla": "bioestimuladores-colageno",
+      "titulo": "Bioestimuladores de colágeno",
+      "texto": "Tratamientos inyectables que estimulan colágeno y mejoran firmeza, textura y calidad de piel.",
+      "icono": "bi bi-flower1",
+      "borde": "#0d6efd",
+      "iconoFondo": "rgba(13,110,253,0.12)",
+      "iconoColor": "#0d6efd",
+      "linkColor": "#0d6efd"
+    }
+  ],
+  "detalles": [
+    {
+      "id": "cirugia-mamaria",
+      "fondo": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(13,110,253,0.82)",
+      "alineacion": "left",
+      "titulo": "Cirugía mamaria de aumento y reducción",
+      "icono": "bi bi-plus-slash-minus",
+      "iconoColor": "#ffffff",
+      "texto": "La cirugía mamaria permite aumentar, reducir o armonizar el volumen del busto de acuerdo con tu anatomía, síntomas y objetivos estéticos, buscando siempre equilibrio, seguridad y naturalidad.",
+      "lista": [
+        "Aumento con implantes o técnicas combinadas",
+        "Reducción mamaria funcional y estética",
+        "Simetría y proporción personalizadas"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre cirugía mamaria de aumento y reducción",
+        "texto": "Solicitar valoración",
+        "clases": "btn btn-primary btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "mastopexia",
+      "fondo": "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(13,202,240,0.82)",
+      "alineacion": "right",
+      "titulo": "Mastopexia",
+      "icono": "bi bi-arrow-up-circle-fill",
+      "iconoColor": "#ffffff",
+      "texto": "La mastopexia está orientada a elevar y reposicionar el busto cuando existe flacidez, mejorando proyección, firmeza y forma con o sin el apoyo de implantes según cada caso.",
+      "lista": [
+        "Elevación del complejo aréola-pezón",
+        "Corrección de flacidez pos embarazo o pérdida de peso",
+        "Resultados naturales con o sin implantes"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre mastopexia",
+        "texto": "Consultar procedimiento",
+        "clases": "btn btn-light text-info btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "cirugia-corporal",
+      "fondo": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(25,135,84,0.82)",
+      "alineacion": "left",
+      "titulo": "Cirugía corporal",
+      "icono": "bi bi-person-bounding-box",
+      "iconoColor": "#ffffff",
+      "texto": "La cirugía corporal integra procedimientos destinados a redefinir la silueta, tratar flacidez y corregir zonas específicas del cuerpo con una estrategia quirúrgica adaptada a cada paciente.",
+      "lista": [
+        "Remodelación de abdomen, cintura, brazos y muslos",
+        "Corrección de flacidez y exceso cutáneo",
+        "Plan quirúrgico adaptado a tu anatomía"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre cirugía corporal",
+        "texto": "Solicitar valoración",
+        "clases": "btn btn-success btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "lipoescultura",
+      "fondo": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(255,193,7,0.78)",
+      "alineacion": "right",
+      "titulo": "Lipoescultura",
+      "icono": "bi bi-scissors",
+      "iconoColor": "#ffffff",
+      "texto": "La lipoescultura permite tratar grasa localizada para esculpir el contorno corporal con precisión, resaltando zonas estratégicas y mejorando la transición entre diferentes áreas del cuerpo.",
+      "textoColor": "#ffffff",
+      "lista": [
+        "Definición de cintura, espalda y abdomen",
+        "Extracción selectiva de grasa localizada",
+        "Contornos armónicos de alta precisión"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre lipoescultura",
+        "texto": "Consultar procedimiento",
+        "clases": "btn btn-light text-warning fw-bold btn-lg rounded-pill px-5 shadow"
+      }
+    },
+    {
+      "id": "lipotransferencia",
+      "fondo": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(111,66,193,0.84)",
+      "alineacion": "left",
+      "titulo": "Lipotransferencia",
+      "icono": "bi bi-arrow-left-right",
+      "iconoColor": "#ffffff",
+      "texto": "La lipotransferencia utiliza grasa propia purificada para aportar volumen natural en zonas que lo requieren, integrando modelado y relleno en un mismo procedimiento.",
+      "lista": [
+        "Transferencia de grasa propia purificada",
+        "Aumento natural de glúteos, rostro o caderas",
+        "Doble beneficio: define y rellena"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre lipotransferencia",
+        "texto": "Solicitar valoración",
+        "clases": "btn btn-outline-light btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "abdominoplastia",
+      "fondo": "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(220,53,69,0.82)",
+      "alineacion": "right",
+      "titulo": "Abdominoplastia",
+      "icono": "bi bi-bounding-box-circles",
+      "iconoColor": "#ffffff",
+      "texto": "La abdominoplastia corrige exceso de piel, flacidez y separación muscular para conseguir un abdomen más firme, funcional y estéticamente definido.",
+      "lista": [
+        "Reparación de flacidez y diástasis abdominal",
+        "Eliminación de piel excedente",
+        "Abdomen más firme y estilizado"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre abdominoplastia",
+        "texto": "Consultar procedimiento",
+        "clases": "btn btn-light text-danger fw-bold btn-lg rounded-pill px-5 shadow"
+      }
+    },
+    {
+      "id": "contorno-post-bariatrico",
+      "fondo": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(13,110,253,0.82)",
+      "alineacion": "left",
+      "titulo": "Contorno post bariátrico",
+      "icono": "bi bi-person-check-fill",
+      "iconoColor": "#ffffff",
+      "texto": "El contorno post bariátrico ayuda a tratar excedentes cutáneos complejos tras una pérdida importante de peso, mejorando función, higiene, comodidad y silueta.",
+      "lista": [
+        "Manejo de excedentes cutáneos complejos",
+        "Recuperación de forma corporal tras gran pérdida de peso",
+        "Mejora funcional, higiene y autoestima"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre contorno post bariátrico",
+        "texto": "Solicitar valoración",
+        "clases": "btn btn-primary btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "retiro-biopolimeros",
+      "fondo": "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(13,202,240,0.82)",
+      "alineacion": "right",
+      "titulo": "Retiro de biopolímeros",
+      "icono": "bi bi-shield-x",
+      "iconoColor": "#ffffff",
+      "texto": "El retiro de biopolímeros requiere una valoración precisa para definir el alcance de la extracción, tratar inflamación, secuelas y restaurar tejidos de forma responsable.",
+      "lista": [
+        "Evaluación individual de extensión y secuelas",
+        "Extracción quirúrgica y reconstrucción por etapas cuando se requiere",
+        "Enfoque en seguridad y recuperación de tejidos"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre retiro de biopolímeros",
+        "texto": "Consultar procedimiento",
+        "clases": "btn btn-light text-info btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "cirugia-facial",
+      "fondo": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(25,135,84,0.82)",
+      "alineacion": "left",
+      "titulo": "Cirugía facial",
+      "icono": "bi bi-emoji-smile",
+      "iconoColor": "#ffffff",
+      "texto": "La cirugía facial agrupa procedimientos orientados a equilibrar rasgos, rejuvenecer y resaltar la expresión del rostro manteniendo naturalidad y armonía.",
+      "lista": [
+        "Armonización global del rostro",
+        "Corrección de rasgos con enfoque natural",
+        "Plan integral según edad, anatomía y objetivos"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre cirugía facial",
+        "texto": "Solicitar valoración",
+        "clases": "btn btn-success btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "lifting-facial",
+      "fondo": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(255,193,7,0.78)",
+      "alineacion": "right",
+      "titulo": "Lifting facial",
+      "icono": "bi bi-arrow-up-right-circle-fill",
+      "iconoColor": "#ffffff",
+      "texto": "El lifting facial reposiciona tejidos profundos para reducir flacidez, redefinir la línea mandibular y devolver frescura al rostro con resultados elegantes y duraderos.",
+      "textoColor": "#ffffff",
+      "lista": [
+        "Reposicionamiento profundo de tejidos faciales",
+        "Mejora de flacidez en mejillas y línea mandibular",
+        "Rejuvenecimiento elegante y duradero"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre lifting facial",
+        "texto": "Consultar procedimiento",
+        "clases": "btn btn-light text-warning fw-bold btn-lg rounded-pill px-5 shadow"
+      }
+    },
+    {
+      "id": "rinoplastia",
+      "fondo": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(111,66,193,0.84)",
+      "alineacion": "left",
+      "titulo": "Rinoplastia",
+      "icono": "bi bi-magic",
+      "iconoColor": "#ffffff",
+      "texto": "La rinoplastia mejora la forma nasal y, cuando es necesario, también la función respiratoria, buscando un resultado armónico con el resto del rostro.",
+      "lista": [
+        "Mejora estética del dorso y punta nasal",
+        "Corrección funcional de la respiración cuando aplica",
+        "Diseño nasal en equilibrio con tu rostro"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre rinoplastia",
+        "texto": "Solicitar valoración",
+        "clases": "btn btn-outline-light btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "blefaroplastia",
+      "fondo": "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(220,53,69,0.82)",
+      "alineacion": "right",
+      "titulo": "Blefaroplastia",
+      "icono": "bi bi-eye-fill",
+      "iconoColor": "#ffffff",
+      "texto": "La blefaroplastia corrige exceso de piel y bolsas en los párpados para devolver una mirada más descansada, luminosa y rejuvenecida.",
+      "lista": [
+        "Corrección de párpados superiores caídos",
+        "Reducción de bolsas y exceso cutáneo",
+        "Mirada más fresca y descansada"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre blefaroplastia",
+        "texto": "Consultar procedimiento",
+        "clases": "btn btn-light text-danger fw-bold btn-lg rounded-pill px-5 shadow"
+      }
+    },
+    {
+      "id": "otoplastia",
+      "fondo": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(13,110,253,0.82)",
+      "alineacion": "left",
+      "titulo": "Otoplastia",
+      "icono": "bi bi-soundwave",
+      "iconoColor": "#ffffff",
+      "texto": "La otoplastia permite corregir orejas prominentes o asimétricas para lograr una proporción más discreta y armónica con el rostro.",
+      "lista": [
+        "Corrección de orejas prominentes o asimétricas",
+        "Resultados discretos y proporcionales",
+        "Procedimiento con recuperación rápida"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre otoplastia",
+        "texto": "Solicitar valoración",
+        "clases": "btn btn-primary btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "cervicoplastia",
+      "fondo": "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(13,202,240,0.82)",
+      "alineacion": "right",
+      "titulo": "Cervicoplastia",
+      "icono": "bi bi-person-lines-fill",
+      "iconoColor": "#ffffff",
+      "texto": "La cervicoplastia está enfocada en definir el cuello y el ángulo mandibular mediante la corrección de flacidez, bandas y exceso de tejido en la zona cervical.",
+      "lista": [
+        "Definición del cuello y ángulo cervicomental",
+        "Corrección de bandas platismales y flacidez",
+        "Contorno más limpio y rejuvenecido"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre cervicoplastia",
+        "texto": "Consultar procedimiento",
+        "clases": "btn btn-light text-info btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "frontoplastia",
+      "fondo": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(25,135,84,0.82)",
+      "alineacion": "left",
+      "titulo": "Frontoplastia",
+      "icono": "bi bi-chevron-bar-up",
+      "iconoColor": "#ffffff",
+      "texto": "La frontoplastia ayuda a suavizar la región frontal y equilibrar el tercio superior del rostro, respetando la expresión natural del paciente.",
+      "lista": [
+        "Suavización de la región frontal",
+        "Mejora del equilibrio entre frente y tercio superior",
+        "Resultados naturales en armonía con tu expresión"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre frontoplastia",
+        "texto": "Solicitar valoración",
+        "clases": "btn btn-success btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "lifting-cejas",
+      "fondo": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(255,193,7,0.78)",
+      "alineacion": "right",
+      "titulo": "Lifting de cejas",
+      "icono": "bi bi-arrow-up-circle",
+      "iconoColor": "#ffffff",
+      "texto": "El lifting de cejas busca elevar una ceja descendida o pesada para abrir la mirada y disminuir el aspecto de cansancio o severidad facial.",
+      "textoColor": "#ffffff",
+      "lista": [
+        "Elevación de cejas descendidas",
+        "Apertura y rejuvenecimiento de la mirada",
+        "Corrección de gesto cansado o severo"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre lifting de cejas",
+        "texto": "Consultar procedimiento",
+        "clases": "btn btn-light text-warning fw-bold btn-lg rounded-pill px-5 shadow"
+      }
+    },
+    {
+      "id": "armonizacion-facial",
+      "fondo": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(111,66,193,0.84)",
+      "alineacion": "left",
+      "titulo": "Armonización facial",
+      "icono": "bi bi-stars",
+      "iconoColor": "#ffffff",
+      "texto": "La armonización facial integra procedimientos mínimamente invasivos para perfilar mentón, mandíbula, pómulos y volúmenes del rostro con recuperación rápida.",
+      "lista": [
+        "Perfilado de mentón, mandíbula y pómulos",
+        "Rellenos estratégicos con recuperación rápida",
+        "Resultados sutiles y armónicos"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre armonización facial",
+        "texto": "Solicitar valoración",
+        "clases": "btn btn-outline-light btn-lg rounded-pill px-5"
+      }
+    },
+    {
+      "id": "botox",
+      "fondo": "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(220,53,69,0.82)",
+      "alineacion": "right",
+      "titulo": "BOTOX",
+      "icono": "bi bi-droplet-half",
+      "iconoColor": "#ffffff",
+      "texto": "El tratamiento con BOTOX permite suavizar líneas de expresión dinámicas, prevenir arrugas y mantener un aspecto descansado sin perder naturalidad.",
+      "lista": [
+        "Suavización de líneas de expresión dinámicas",
+        "Prevención del marcaje progresivo de arrugas",
+        "Aplicación precisa con efecto natural"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre BOTOX",
+        "texto": "Consultar procedimiento",
+        "clases": "btn btn-light text-danger fw-bold btn-lg rounded-pill px-5 shadow"
+      }
+    },
+    {
+      "id": "bioestimuladores-colageno",
+      "fondo": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1600&auto=format&fit=crop",
+      "overlay": "rgba(13,110,253,0.82)",
+      "alineacion": "left",
+      "titulo": "Bioestimuladores de colágeno",
+      "icono": "bi bi-flower1",
+      "iconoColor": "#ffffff",
+      "texto": "Los bioestimuladores de colágeno activan la producción natural de soporte cutáneo para mejorar firmeza, textura y calidad de piel de manera progresiva.",
+      "lista": [
+        "Estimulación progresiva de colágeno",
+        "Mejora de firmeza, textura y calidad cutánea",
+        "Resultados naturales y sostenidos"
+      ],
+      "listaColor": "#ffffff",
+      "boton": {
+        "tipo": "whatsapp",
+        "mensaje": "Hola, quiero información sobre bioestimuladores de colágeno",
+        "texto": "Solicitar valoración",
+        "clases": "btn btn-primary btn-lg rounded-pill px-5"
+      }
+    }
+  ],
+  "planes": {
+    "visible": false,
+    "titulo": "Chequeos Preventivos",
+    "texto": "Invierte en tu tranquilidad con nuestros paquetes todo incluido",
+    "items": [
+      {
+        "titulo": "Plan Básico",
+        "precio": "$49",
+        "descripcion": "Ideal para control anual rutinario",
+        "icono": "bi bi-file-medical",
+        "color": "#6c757d",
+        "caracteristicas": [
+          "Consulta Médica General",
+          "Hemograma Completo",
+          "Glucosa y Colesterol"
+        ],
+        "caracteristicasNoIncluidas": [
+          "Electrocardiograma"
+        ],
+        "boton": {
+          "tipo": "whatsapp",
+          "mensaje": "Hola, me interesa el Plan Básico",
+          "texto": "Solicitar Plan",
+          "clases": "btn btn-outline-secondary w-100 rounded-pill py-2 fw-bold"
+        }
+      },
+      {
+        "titulo": "Plan Intermedio",
+        "precio": "$99",
+        "descripcion": "El balance perfecto para tu salud",
+        "icono": "bi bi-heart-pulse-fill",
+        "color": "#0d6efd",
+        "destacado": true,
+        "badge": "Más Solicitado",
+        "caracteristicas": [
+          "Todo lo del Básico",
+          "Perfil Lipídico Completo",
+          "Electrocardiograma",
+          "Prueba de Función Hepática"
+        ],
+        "boton": {
+          "tipo": "whatsapp",
+          "mensaje": "Hola, me interesa el Plan Intermedio",
+          "texto": "Solicitar Plan Ahora",
+          "clases": "btn btn-primary w-100 rounded-pill py-3 fw-bold shadow"
+        }
+      },
+      {
+        "titulo": "Plan Avanzado",
+        "precio": "$149",
+        "descripcion": "Evaluación profunda y especializada",
+        "icono": "bi bi-clipboard2-pulse-fill",
+        "color": "#198754",
+        "caracteristicas": [
+          "Todo lo del Intermedio",
+          "Ecografía Abdominal",
+          "Consulta con Especialista",
+          "Espirometría"
+        ],
+        "boton": {
+          "tipo": "whatsapp",
+          "mensaje": "Hola, me interesa el Plan Avanzado",
+          "texto": "Solicitar Plan",
+          "clases": "btn btn-outline-success w-100 rounded-pill py-2 fw-bold"
+        }
+      }
+    ]
+  },
+  "cta": {
+    "titulo": "¿Listo para dar el siguiente paso?",
+    "texto": "Agenda tu valoración personalizada y recibe orientación sobre el procedimiento ideal para ti.",
+    "boton": {
+      "href": "contacto",
+      "texto": "Agendar Cita",
+      "title": "Ir a contacto"
+    }
+  }
+}

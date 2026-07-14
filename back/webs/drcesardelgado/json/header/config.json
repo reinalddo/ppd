@@ -1,0 +1,40 @@
+{
+  "logo": {
+    "icono": "assets/header/icon.png",
+    "texto": "Dr Cesar Delgado",
+    "href": "index",
+    "title": "Ir al inicio"
+  },
+  "menu": [
+    {
+      "texto": "Inicio",
+      "href": "index",
+      "icono": "bi bi-house-door-fill",
+      "title": "Ir a inicio"
+    },
+    {
+      "texto": "Nosotros",
+      "href": "nosotros",
+      "icono": "bi bi-people-fill",
+      "title": "Ir a nosotros"
+    },
+    {
+      "texto": "Servicios",
+      "href": "servicios",
+      "icono": "bi bi-activity",
+      "title": "Ir a servicios"
+    },
+    {
+      "texto": "Contacto",
+      "href": "contacto",
+      "icono": "bi bi-envelope-fill",
+      "title": "Ir a contacto"
+    }
+  ],
+  "botonCita": {
+    "texto": "Cita",
+    "target": "_blank",
+    "title": "Agendar cita por WhatsApp",
+    "mensaje": "Hola, quiero agendar una cita en Clinica Salud."
+  }
+}

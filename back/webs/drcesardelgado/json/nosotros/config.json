@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Nosotros - Dr. César Delgado",
+  "header": {
+    "fondo": "assets/header/fondo-header.jpeg",
+    "titulo": "Quiénes Somos",
+    "texto": "Cirugía plástica facial y corporal con enfoque personalizado, resultados armónicos y atención cercana en cuatro sedes de consulta."
+  },
+  "historia": {
+    "titulo": "Trayectoria y Enfoque",
+    "parrafos": [
+      "Dr. César Delgado desarrolla una práctica orientada a la cirugía plástica facial y corporal, integrando procedimientos quirúrgicos y tratamientos mínimamente invasivos con valoración individual, planificación precisa y criterio estético natural.",
+      "Cada paciente recibe una atención cercana y responsable, enfocada en entender su anatomía, sus objetivos y el procedimiento más adecuado, desde cirugía mamaria y contorno corporal hasta armonización facial, rinoplastia y rejuvenecimiento.",
+      "La consulta se apoya en una visión integral del resultado: seguridad, proporción, naturalidad y seguimiento constante en cada etapa del proceso."
+    ],
+    "imagen": {
+      "url": "assets/nosotros/trayectoria.jpeg",
+      "alt": "Consulta médica especializada"
+    }
+  },
+  "valores": {
+    "titulo": "Nuestro Enfoque",
+    "items": [
+      {
+        "icono": "bi bi-shield-check",
+        "titulo": "Seguridad",
+        "texto": "Cada procedimiento parte de una evaluación responsable, indicaciones claras y planificación adaptada a cada caso."
+      },
+      {
+        "icono": "bi bi-stars",
+        "titulo": "Naturalidad",
+        "texto": "El objetivo es realzar la armonía facial y corporal respetando los rasgos, proporciones y esencia de cada paciente."
+      },
+      {
+        "icono": "bi bi-person-hearts",
+        "titulo": "Atención Personalizada",
+        "texto": "Acompañamiento cercano antes, durante y después del procedimiento, con seguimiento y orientación continua."
+      }
+    ]
+  },
+  "especialistas": {
+    "titulo": "Conoce nuestras sedes de consulta",
+    "texto": "Disponibilidad de atención en cuatro ciudades para mayor comodidad y cercanía.",
+    "items": [
+      {
+        "icono": "bi bi-geo-alt-fill",
+        "iconoFondo": "rgba(13,110,253,0.12)",
+        "iconoColor": "#0d6efd",
+        "nombre": "Caracas",
+        "especialidad": "Unidad Quirúrgica XILUET",
+        "detalle": "Las Mercedes"
+      },
+      {
+        "icono": "bi bi-building-fill",
+        "iconoFondo": "rgba(13,202,240,0.12)",
+        "iconoColor": "#0dcaf0",
+        "nombre": "Barquisimeto",
+        "especialidad": "Torre BEL",
+        "detalle": "Sede de consulta"
+      },
+      {
+        "icono": "bi bi-hospital-fill",
+        "iconoFondo": "rgba(25,135,84,0.12)",
+        "iconoColor": "#198754",
+        "nombre": "Acarigua",
+        "especialidad": "Clínica VMI",
+        "detalle": "Sede de consulta"
+      },
+      {
+        "icono": "bi bi-plus-square-fill",
+        "iconoFondo": "rgba(255,193,7,0.18)",
+        "iconoColor": "#d39e00",
+        "nombre": "San Carlos",
+        "especialidad": "Clínica Fernández Rodríguez",
+        "detalle": "Sede de consulta"
+      }
+    ]
+  }
+}

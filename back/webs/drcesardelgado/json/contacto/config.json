@@ -1,0 +1,82 @@
+{
+  "pageTitle": "Contacto - Dr. César Delgado",
+  "header": {
+    "fondo": "assets/header/fondo-header.jpeg",
+    "titulo": "Contáctanos",
+    "texto": "Agenda tu valoración, consulta tu sede más cercana o solicita información sobre procedimientos faciales y corporales."
+  },
+  "informacion": {
+    "titulo": "Información de Contacto",
+    "items": [
+      {
+        "icono": "bi bi-geo-alt-fill",
+        "titulo": "Sedes de consulta",
+        "lineas": [
+          "Caracas - Unidad Quirúrgica XILUET, Las Mercedes",
+          "Barquisimeto - Torre BEL",
+          "Acarigua - Clínica VMI",
+          "San Carlos - Clínica Fernández Rodríguez"
+        ]
+      },
+      {
+        "icono": "bi bi-telephone-fill",
+        "titulo": "Teléfonos",
+        "lineas": [
+          "Caracas - 0412-7801860",
+          "Barquisimeto - 0414-5202914",
+          "Acarigua - 0412-4454850",
+          "San Carlos - 0412-5364463"
+        ]
+      },
+      {
+        "icono": "bi bi-envelope-fill",
+        "titulo": "Correos electrónicos",
+        "lineas": [
+          "Drcesar@cesarplastic.com",
+          "Cesardplastic@gmail.com"
+        ]
+      }
+    ]
+  },
+  "mapa": {
+    "visible": false,
+    "src": "",
+    "title": "",
+    "height": "300"
+  },
+  "formulario": {
+    "titulo": "Agenda tu valoración",
+    "campos": {
+      "nombre": {
+        "id": "nombre",
+        "label": "Nombre completo",
+        "placeholder": "Ej: María Pérez"
+      },
+      "servicio": {
+        "id": "servicio",
+        "label": "Sede de interés",
+        "opciones": [
+          "Caracas - Unidad Quirúrgica XILUET",
+          "Barquisimeto - Torre BEL",
+          "Acarigua - Clínica VMI",
+          "San Carlos - Clínica Fernández Rodríguez",
+          "Otra consulta"
+        ]
+      },
+      "mensaje": {
+        "id": "mensaje",
+        "label": "Mensaje",
+        "placeholder": "Hola, deseo agendar una valoración y recibir información sobre un procedimiento.",
+        "rows": 4
+      }
+    },
+    "boton": {
+      "texto": "Enviar por WhatsApp",
+      "title": "Enviar mensaje por WhatsApp"
+    },
+    "ayuda": "Tu mensaje se enviará al contacto principal de WhatsApp para canalizar tu solicitud.",
+    "mensajes": {
+      "validacion": "Por favor, completa tu nombre y tu mensaje antes de enviar."
+    }
+  }
+}

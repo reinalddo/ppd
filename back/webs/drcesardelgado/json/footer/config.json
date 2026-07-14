@@ -1,0 +1,32 @@
+{
+  "marca": {
+    "nombre": "Dr. César Delgado",
+    "descripcion": "Cirugía plástica facial y corporal con atención personalizada, enfoque natural y valoración individual.",
+    "href": "index"
+  },
+  "enlaces": [
+    {
+      "texto": "Inicio",
+      "href": "index",
+      "title": "Ir a inicio"
+    },
+    {
+      "texto": "Nosotros",
+      "href": "nosotros",
+      "title": "Ir a nosotros"
+    },
+    {
+      "texto": "Servicios",
+      "href": "servicios",
+      "title": "Ir a servicios"
+    },
+    {
+      "texto": "Contacto",
+      "href": "contacto",
+      "title": "Ir a contacto"
+    }
+  ],
+  "social": [],
+  "horario": [],
+  "copyright": "Todos los derechos reservados."
+}

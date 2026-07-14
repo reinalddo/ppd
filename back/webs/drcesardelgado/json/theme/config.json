@@ -1,0 +1,22 @@
+{
+  "colores": {
+    "primary": "#0d6efd",
+    "accent": "#33aeff",
+    "warning": "#ffc107",
+    "success": "#198754",
+    "danger": "#dc3545",
+    "dark": "#111827",
+    "light": "#f8f9fa",
+    "surface": "#ffffff",
+    "navbarText": "#ffffff",
+    "navbarHover": "#ffc107",
+    "navbarScrolled": "#0d6efd",
+    "footerBg": "#111827",
+    "footerText": "#f8f9fa"
+  },
+  "efectos": {
+    "navbarShadow": "0 4px 10px rgba(0,0,0,0.2)",
+    "cardShadow": "0 1rem 3rem rgba(0,0,0,.175)",
+    "textShadow": "0 2px 4px rgba(0,0,0,0.3)"
+  }
+}

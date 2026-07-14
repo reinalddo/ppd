@@ -1,0 +1,170 @@
+{
+  "pageTitle": "Inicio - Dr. César Delgado",
+  "hero": {
+    "fondo": "assets/header/fondo-header.jpeg",
+    "overlay": "linear-gradient(135deg, rgba(0,98,230,0.92), rgba(51,174,255,0.85))",
+    "badge": "4 sedes en toda Venezuela",
+    "titulo": "Cirujano Plástico <br>Facial y Corporal",
+    "texto": "Atención médica especializada con tecnología de vanguardia y calidez humana. Cuidamos cada detalle de tu transformación estética y bienestar.",
+    "botonPrimario": {
+      "href": "contacto",
+      "texto": "Agendar Cita",
+      "title": "Ir a contacto"
+    },
+    "botonSecundario": {
+      "href": "servicios",
+      "texto": "Servicios",
+      "title": "Ir a servicios"
+    },
+    "imagen": {
+      "url": "assets/header/foto-header.png",
+      "alt": "Doctor de confianza"
+    }
+  },
+  "beneficios": {
+    "items": [
+      {
+        "icono": "bi bi-person-check-fill",
+        "iconoFondo": "bg-primary",
+        "titulo": "Valoración Personalizada",
+        "texto": "Cada caso se estudia según tu anatomía, objetivos y procedimiento ideal."
+      },
+      {
+        "icono": "bi bi-stars",
+        "iconoFondo": "bg-primary",
+        "titulo": "Resultados Armónicos",
+        "texto": "Enfoque estético orientado a proporción, naturalidad y equilibrio."
+      },
+      {
+        "icono": "bi bi-geo-alt-fill",
+        "iconoFondo": "bg-danger",
+        "titulo": "4 Sedes de Consulta",
+        "texto": "Atención en Caracas, Barquisimeto, Acarigua y San Carlos."
+      }
+    ]
+  },
+  "nosotros": {
+    "pretitle": "Cirugía Plástica Especializada",
+    "titulo": "Atención estética con enfoque facial y corporal",
+    "texto": "Dr. César Delgado acompaña cada proceso con planificación quirúrgica precisa, criterio estético natural y una valoración responsable orientada a resultados armónicos.",
+    "imagen": {
+      "url": "assets/inicio/imagen1.jpeg",
+      "alt": "Consulta especializada en cirugía plástica"
+    },
+    "estadistica": {
+      "valor": "4",
+      "texto": "Sedes de consulta"
+    },
+    "items": [
+      "Procedimientos quirúrgicos y mínimamente invasivos con evaluación individual.",
+      "Enfoque en seguridad, naturalidad y armonía facial y corporal.",
+      "Acompañamiento cercano antes, durante y después de cada procedimiento."
+    ],
+    "boton": {
+      "href": "nosotros",
+      "texto": "Conocer más",
+      "title": "Ir a nosotros"
+    }
+  },
+  "especialidades": {
+    "pretitle": "Servicios Destacados",
+    "titulo": "Siete procedimientos que definen nuestra práctica",
+    "items": [
+      {
+        "href": "servicios#cirugia-mamaria",
+        "imagen": "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=600&auto=format&fit=crop",
+        "titulo": "Cirugía mamaria",
+        "textoAccion": "Ver Detalles",
+        "claseAccion": "text-primary"
+      },
+      {
+        "href": "servicios#mastopexia",
+        "imagen": "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?q=80&w=600&auto=format&fit=crop",
+        "titulo": "Mastopexia",
+        "textoAccion": "Ver Detalles",
+        "claseAccion": "text-info"
+      },
+      {
+        "href": "servicios#lipoescultura",
+        "imagen": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=600&auto=format&fit=crop",
+        "titulo": "Lipoescultura",
+        "textoAccion": "Ver Detalles",
+        "claseAccion": "text-warning"
+      },
+      {
+        "href": "servicios#abdominoplastia",
+        "imagen": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=600&auto=format&fit=crop",
+        "titulo": "Abdominoplastia",
+        "textoAccion": "Ver Detalles",
+        "claseAccion": "text-danger"
+      },
+      {
+        "href": "servicios#rinoplastia",
+        "imagen": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=600&auto=format&fit=crop",
+        "titulo": "Rinoplastia",
+        "textoAccion": "Ver Detalles",
+        "claseAccion": "text-primary"
+      },
+      {
+        "href": "servicios#lifting-facial",
+        "imagen": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=600&q=80",
+        "titulo": "Lifting facial",
+        "textoAccion": "Ver Detalles",
+        "claseAccion": "text-success"
+      },
+      {
+        "href": "servicios#armonizacion-facial",
+        "imagen": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=600&auto=format&fit=crop",
+        "titulo": "Armonización facial",
+        "textoAccion": "Ver Detalles",
+        "claseAccion": "text-primary"
+      },
+      {
+        "href": "servicios",
+        "destacado": true,
+        "icono": "bi bi-grid-fill",
+        "titulo": "Ver todos los servicios",
+        "textoAccion": "Clic aquí"
+      }
+    ]
+  },
+  "testimonios": {
+    "visible": false,
+    "pretitle": "Testimonios",
+    "titulo": "Pacientes Felices",
+    "items": [
+      {
+        "estrellas": "⭐⭐⭐⭐⭐",
+        "texto": "La atencion en pediatria fue increible. Mi hijo ni siquiera lloro con la vacuna. Super recomendados.",
+        "inicial": "M",
+        "inicialFondo": "bg-primary",
+        "nombre": "Maria Rodriguez",
+        "cargo": "Madre de Familia"
+      },
+      {
+        "estrellas": "⭐⭐⭐⭐⭐",
+        "texto": "Llegue por una urgencia de noche y la rapidez fue vital. Gracias al equipo de guardia por salvarme.",
+        "inicial": "C",
+        "inicialFondo": "bg-dark",
+        "nombre": "Carlos Perez",
+        "cargo": "Paciente de Urgencias"
+      }
+    ]
+  },
+  "cta": {
+    "titulo": "¿Lista para dar el siguiente paso?",
+    "texto": "Escríbenos por WhatsApp o agenda tu cita para recibir orientación sobre el procedimiento ideal para ti.",
+    "fondo": "linear-gradient(135deg, #0062E6, #33AEFF)",
+    "botonWhatsapp": {
+      "tipo": "whatsapp",
+      "mensaje": "Hola, deseo agendar una valoración y recibir información sobre un procedimiento.",
+      "texto": "WhatsApp Directo",
+      "title": "Abrir WhatsApp"
+    },
+    "botonSecundario": {
+      "href": "contacto",
+      "texto": "Ver Contacto",
+      "title": "Ir a contacto"
+    }
+  }
+}
