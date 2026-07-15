@@ -391,10 +391,25 @@ svg { display: block; }
 /* ==========================================================================
    Portafolio
    ========================================================================== */
-.portfolio__grid {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 420px));
+.portfolio-card--featured { margin-bottom: 2.5rem; }
+@media (min-width: 900px) {
+  .portfolio-card--featured {
+    display: grid;
+    grid-template-columns: 1.05fr .95fr;
+    align-items: stretch;
+  }
+  .portfolio-card--featured .portfolio-card__preview { display: flex; flex-direction: column; }
+  /* La captura del sitio es más alta que ancha: se ancla en absolute para que
+     llene la columna sin imponer su altura intrínseca a toda la tarjeta. */
+  .portfolio-card--featured .portfolio-card__image { flex: 1; aspect-ratio: auto; min-height: 380px; position: relative; }
+  .portfolio-card--featured .portfolio-card__image img { position: absolute; inset: 0; }
+  .portfolio-card--featured .portfolio-card__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+  }
 }
 .portfolio-card {
   background: var(--white);
@@ -439,7 +454,7 @@ svg { display: block; }
 .portfolio-card__body .link-arrow { color: var(--sendero); }
 
 /* ==========================================================================
-   Demos por rubro
+   Demos por rubro (dentro de la sección Portafolio, fondo claro)
    ========================================================================== */
 .demos__grid {
   display: grid;
@@ -449,26 +464,28 @@ svg { display: block; }
 .demo-card {
   border-radius: var(--radius-lg);
   overflow: hidden;
-  background: rgba(236, 238, 231, .06);
-  border: 1px solid rgba(236, 238, 231, .12);
+  background: var(--white);
+  border: 1px solid rgba(22, 33, 29, .08);
+  box-shadow: 0 1px 2px rgba(22, 33, 29, .05);
   transition: border-color .2s var(--ease);
+  display: flex;
+  flex-direction: column;
 }
-.demo-card:hover { border-color: var(--marca); }
-.demo-card__link { display: block; }
-.demo-card__image { display: block; aspect-ratio: 4 / 3; overflow: hidden; }
+.demo-card:hover { border-color: var(--sendero); }
+.demo-card__image { display: block; aspect-ratio: 4 / 3; overflow: hidden; background: var(--niebla-alt); }
 .demo-card__image img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s var(--ease); }
 .demo-card:hover .demo-card__image img { transform: scale(1.05); }
-.demo-card__body { display: block; padding: 1.25rem 1.4rem 1.5rem; }
+.demo-card__body { padding: 1.25rem 1.4rem 1.5rem; display: flex; flex-direction: column; flex: 1; }
 .demo-card__title {
-  display: block;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.15rem;
-  color: var(--marca);
+  color: var(--sendero);
   margin-bottom: .35rem;
 }
-.demo-card__desc { display: block; font-size: .9rem; opacity: .75; margin-bottom: .9rem; }
-.demo-card .link-arrow { color: var(--niebla); }
+.demo-card__desc { font-size: .9rem; opacity: .8; margin-bottom: .9rem; }
+.demo-card__links { display: flex; flex-direction: column; gap: .55rem; margin-top: auto; }
+.demo-card__links .link-arrow { color: var(--sendero); font-size: .82rem; }
 
 /* ==========================================================================
    Contacto / CTA final

@@ -65,37 +65,27 @@ No hay skill/MCP de generación de imágenes disponible. El usuario genera cada 
   - Utilitaria (micro-labels, coordenadas, footer): **Space Mono** — pequeñas etiquetas tipo "SAN CRISTÓBAL · TÁCHIRA" en el hero.
 - **Layout:** secciones alternan fondo oscuro (`--ink`) y claro (`--niebla`) como tramos de día/tarde en el camino. Tarjetas de portafolio y demos con esquinas suaves (no tan redondeadas como veterinaria, no cuadradas como empresarial).
 
-## Sistemas de diseño — Demos por rubro
+## Demos y portafolio (alcance actualizado)
 
-Cada demo es un negocio ficticio pero creíble, con identidad visual propia. No comparten paleta, tipografía ni componentes entre sí ni con el sitio principal.
+La sección "Portafolio" del sitio principal fusiona portafolio + demos en una sola (el usuario las unió porque ambas muestran páginas hechas y disponibles a la venta). Composición:
 
-### 1. Veterinaria — "Veterinaria El Roble"
-Consultorio veterinario de barrio, cálido y confiable.
-- **Firma visual:** anillos de árbol (tree rings) como motivo de divisor de sección — ligado al nombre "El Roble" y a la idea de años de confianza/crecimiento. Ilustraciones de línea suave de mascotas entre hojas, no fotos.
-- **Paleta:** `--musgo #3E4A34` (texto/dark) · `--tierra #B5652D` (acento cálido) · `--crema #F6EFE1` (fondo) · `--hoja #8A9B6E` (secundario) · `--miel #D9A441` (CTA)
-- **Tipografía:** Display **Fraunces** (serif suave y orgánica) · Cuerpo **Karla** (redondeada, amigable) · misma familia en versalitas para tags.
-- **Layout:** tarjetas muy redondeadas, formas de "blob" (SVG) detrás de secciones, imágenes recortadas en circular tipo medallón.
+- **Destacado:** TiendaVirtualShop (`tienda.tvirtualshop.com`) con marco de navegador.
+- **Veterinaria:** único demo construido localmente en `/demos/veterinaria/` (ver abajo).
+- **Videojuegos:** enlaza al sitio externo en producción `https://virtualgaming.tvirtualshop.com/` — NO se construye demo local.
+- **Medicina:** 3 enlaces externos: `https://demo-salud-1.primerpasodigital.com/`, `https://demo-salud-2.primerpasodigital.com/`, `https://demo-salud-3.primerpasodigital.com/` — NO se construye demo local.
+- **Empresarial:** 2 proyectos reales en producción: `https://globalinduprod.com/` y `https://globalinduprodinternational.com/` — NO se construye demo local.
+- **Blogs:** tarjeta que ofrece blogs con artículos redactados **diariamente y de forma automática con IA** (sin dedicar tiempo a redacción — ese es el pitch). Enlaces: `https://tech.tvirtualshop.com/` y `https://blog.tvirtualshop.com/`. Miniatura: `assets/img/demos/demo-blogs.png` (4:3, pendiente de generar en Flow).
 
-### 2. Videojuegos — "Ping Alto Gaming"
-Café gaming / arena de esports en San Cristóbal — el nombre es un guiño al chiste típico latinoamericano sobre el mal ping a servidores internacionales.
-- **Firma visual:** marquesina de gabinete arcade enmarcando el hero, overlay de scanlines CRT sutil, glitch cromático solo en hover (no ambiental/constante), microcopy tipo "INSERT COIN" en vez de "Empezar".
-- **Paleta:** `--void #0B0E14` (fondo) · `--panel #151B26` (paneles) · `--crt-cyan #2FF6E1` · `--crt-magenta #FF3D8A` · `--arcade-yellow #FFD23F`
-- **Tipografía:** Display **Chakra Petch** (titulares) · Acentos/badges **Press Start 2P** (solo textos muy cortos, ilegible en párrafos) · Cuerpo **Space Grotesk** · Datos/precios en **JetBrains Mono** (estilo marcador de puntaje).
-- **Layout:** grid tipo panel de arcade, bordes con esquinas cortadas (clip-path), nada de bordes redondeados.
+Las tarjetas soportan varios enlaces por rubro (`.demo-card__links`, lista vertical de link-arrows).
 
-### 3. Medicina — "Centro Médico San Rafael"
-Clínica ambulatoria, transmite confianza y precisión clínica.
-- **Firma visual:** línea de pulso (EKG) que "aplana" en una regla horizontal como divisor de sección — sutil, no decorativo de sobra. Iconografía médica en línea simple (una sola línea, sin relleno de color), fondo tipo papel de gráfico/ficha clínica muy sutil.
-- **Paleta:** `--clinico #14456B` (texto/marca) · `--cielo #E8F1F6` (fondo) · `--blanco #FFFFFF` · `--menta #3FA796` (acento salud) · `--grafito #2B333A` (texto secundario)
-- **Tipografía:** Display **Newsreader** (serif restrained, transmite trayectoria/confianza) · Cuerpo **IBM Plex Sans** · Datos (horarios, cifras) **IBM Plex Mono**.
-- **Layout:** mucho espacio en blanco, grid preciso, tarjetas con borde de 1px, sin sombras pesadas.
+### Demo local: Veterinaria — "Veterinaria El Roble"
+Consultorio veterinario de barrio, fresco y confiable.
+- **Firma visual:** anillos de árbol (tree rings) como motivo de divisor de sección — ligado al nombre "El Roble". Formas de "blob" (SVG) suaves detrás de secciones.
+- **Paleta (actualizada tras feedback — el usuario pidió menos pastel, más azul/blanco/verde):** `--musgo #16483B` (verde profundo, texto/dark) · `--tierra #1D6FB8` (azul médico, acento primario — el nombre de la variable se conservó del sistema original) · `--crema #F5FAF8` (blanco verdoso, fondo) · `--crema-alt #E6F2F7` (celeste claro, fondo alterno) · `--hoja #4E9C7F` (verde medio) · `--miel #5BC48E` (verde claro, acentos sobre oscuro). Hex hardcodeados en SVGs de los HTML: anillos `#1D6FB8`/`#2E9E6B`, blobs `#A9D3C4`/`#7FB8DD`.
+- **Tipografía:** Display **Fraunces** (serif suave y orgánica) · Cuerpo **Karla** (redondeada, amigable).
+- **Layout:** tarjetas muy redondeadas, blobs SVG de fondo, mapa de Google Maps embebido en Contacto (`.map-embed`, iframe con `output=embed`).
 
-### 4. Empresarial — "Meridiano & Asociados"
-Consultora corporativa seria, editorial, minimalista.
-- **Firma visual:** wordmark vertical rotado corriendo por el margen (como el lomo de un informe anual), folios (números de página) grandes estilo reporte, una sola franja/acento rojo editorial usada con extrema moderación (una regla, una palabra por página) — no hairlines por todos lados tipo periódico genérico.
-- **Paleta:** `--negro #111111` · `--hueso #F7F5F0` (fondo) · `--gris #6B6B6B` · `--acento #A6192E` (rojo editorial, uso puntual)
-- **Tipografía:** Display **Archivo** (grotesca, peso alto, expandida) · Cuerpo **Source Serif 4** (serif editorial — inversión deliberada: titulares en sans, cuerpo en serif, para diferenciarse de Medicina) · Utilitaria **IBM Plex Mono** (folios, notas al pie).
-- **Layout:** grid asimétrico, márgenes generosos, sin esquinas redondeadas, jerarquía tipográfica marcada en vez de color.
+Los sistemas de diseño que se habían definido para videojuegos/medicina/empresarial ("Ping Alto Gaming", "Centro Médico San Rafael", "Meridiano & Asociados") quedaron descartados al reemplazarse por enlaces externos; si algún día se necesita un demo local de esos rubros, rediseñar desde cero con frontend-design.
 
 ## Estructura de carpetas
 
@@ -114,9 +104,7 @@ PPDV2/
 │       ├── portafolio/
 │       └── demos/        (miniaturas de las 4 tarjetas de demos)
 ├── demos/
-│   ├── veterinaria/   (index.html, quienes-somos.html, servicios.html, contacto.html, img/)
-│   ├── videojuegos/   (ídem, img/)
-│   ├── medicina/      (ídem, img/)
-│   └── empresarial/   (ídem, img/)
+│   └── veterinaria/   (index.html, quienes-somos.html, servicios.html, contacto.html, css/, js/, img/)
+│       (videojuegos, medicina y empresarial enlazan a sitios externos — no hay demos locales)
 └── back/  (respaldo del sitio anterior — no tocar)
 ```
