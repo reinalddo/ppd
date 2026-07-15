@@ -45,6 +45,8 @@ No hay skill/MCP de generación de imágenes disponible. El usuario genera cada 
 - Texto en pantalla: permitir solo **etiquetas cortas (1-4 palabras)** tipo botón/headline/nombre — nunca párrafos — y decirlo explícito en el prompt para evitar texto largo distorsionado.
 - Incluir siempre una nota anti-error: manos anatómicamente correctas, sin artefactos, alta resolución, estilo fotografía profesional (lente, profundidad de campo).
 
+**Paso obligatorio de optimización (aprendido en producción, 2026-07-15):** Flow entrega PNG de ~2 MB c/u; servirlos así tumbó imágenes en producción (el CDN de Hostinger los recomprime al vuelo y bajo carga paralela devuelve HTTP 500 intermitentes — imágenes rotas al azar en cada recarga). Por eso **el HTML referencia siempre `.webp`, nunca `.png`**. Tras colocar un PNG nuevo de Flow, convertirlo con Pillow (`im.save(dst, "WEBP", quality=82, method=6)` — de ~2 MB baja a ~60-130 KB sin pérdida visible). El `og-image` es la excepción: va en **JPEG** (`og-image.jpg`, quality 85) por compatibilidad con crawlers de redes sociales. Los `.png` originales se conservan en el repo como fuente.
+
 ## Sistema de diseño — Sitio principal (PPD)
 
 **Concepto:** "Sendero" — el nombre de la marca es literalmente *primer paso*. La identidad se apoya en la señalización de senderos de montaña andina (marcas de pintura en rocas/árboles que guían al caminante, curvas de nivel topográficas) como metáfora visual del recorrido digital de un negocio: cada sección del scroll es un tramo del camino, marcado con un waypoint.
