@@ -87,4 +87,34 @@
 
     sections.forEach(function (s) { spy.observe(s); });
   }
+
+  /* ---------- Volver arriba ----------
+     El header es #top y usa position:sticky, así que su rect ya está en
+     y=0 en cuanto se le pasa por scroll — el navegador no anima el salto
+     nativo a "#top" porque cree que ya está ahí. Se maneja por JS. */
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: prefersReduced ? 'auto' : 'smooth' });
+  }
+
+  document.querySelectorAll('a[href="#top"]').forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      scrollToTop();
+    });
+  });
+
+  var backToTop = document.getElementById('backToTop');
+  if (backToTop) {
+    backToTop.addEventListener('click', scrollToTop);
+
+    var toggleBackToTop = function () {
+      if (window.scrollY > window.innerHeight * 0.6) {
+        backToTop.classList.add('is-visible');
+      } else {
+        backToTop.classList.remove('is-visible');
+      }
+    };
+    window.addEventListener('scroll', toggleBackToTop, { passive: true });
+    toggleBackToTop();
+  }
 })();
