@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# /servicios -> servicios.php, /contacto -> contacto.php, etc.
+# Sin RewriteBase: la ruta queda relativa a esta carpeta, así que
+# funciona igual si el proyecto se copia a otra ubicación.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.php [L,QSA]
+
+# Oculta la extensión .php si alguien entra con ella directo
+RewriteCond %{THE_REQUEST} \s/+([^.]+)\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+Options -Indexes
