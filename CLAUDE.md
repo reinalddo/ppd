@@ -1,6 +1,8 @@
-# Primer Paso Digital (PPD) — Sitio nuevo
+# Cataloneg Webs (ex-PPD) — Sitio nuevo
 
 Marca freelance de desarrollo web con sede en San Cristóbal, Táchira, Venezuela. Ofrece páginas web y tiendas virtuales para negocios en toda Venezuela. Este sitio se construye **desde cero** en la raíz de este repo (`PPDV2`). El sitio anterior vive respaldado en `/back` — no se toca, no se reutiliza como base.
+
+Publicado en **webs.cataloneg.com** (se dejó de usar el dominio primerpasodigital.com).
 
 ## Stack y convenciones
 
@@ -74,7 +76,7 @@ La sección "Portafolio" del sitio principal fusiona portafolio + demos en una s
 - **Destacado:** TiendaVirtualShop (`tienda.tvirtualshop.com`) con marco de navegador.
 - **Veterinaria:** único demo construido localmente en `/demos/veterinaria/` (ver abajo).
 - **Videojuegos:** enlaza al sitio externo en producción `https://virtualgaming.tvirtualshop.com/` — NO se construye demo local.
-- **Medicina:** 3 enlaces externos: `https://demo-salud-1.primerpasodigital.com/`, `https://demo-salud-2.primerpasodigital.com/`, `https://demo-salud-3.primerpasodigital.com/` — NO se construye demo local.
+- **Medicina:** 3 enlaces externos: `https://demo-salud-1.cataloneg.com/`, `https://demo-salud-2.cataloneg.com/`, `https://demo-salud-3.cataloneg.com/` — NO se construye demo local.
 - **Empresarial:** 2 proyectos reales en producción: `https://globalinduprod.com/` y `https://globalinduprodinternational.com/` — NO se construye demo local.
 - **Blogs:** tarjeta que ofrece blogs con artículos redactados **diariamente y de forma automática con IA** (sin dedicar tiempo a redacción — ese es el pitch). Enlaces: `https://tech.tvirtualshop.com/` y `https://blog.tvirtualshop.com/`. Miniatura: `assets/img/demos/demo-blogs.png` (4:3, pendiente de generar en Flow).
 
